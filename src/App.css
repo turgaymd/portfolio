@@ -1,0 +1,211 @@
+
+body{
+  font-family:Open Sans,sans-serif;
+  font-size: 17px;
+  color: #797979;
+}
+.dark{
+color: white;
+background-color: #797979;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+.nav-links a{
+  color: #005469;
+}
+.nav-links-mobile a{
+  color: #fff;
+}
+h2{
+  font-weight: 700;
+  color: #040c2c;
+}
+.logo{
+  margin-left: 9rem;
+}
+.navd{
+  background: url("http://john.wethemez.com/static/media/profile.8ca05271.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+}
+
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  padding:15px;
+}
+.mobile-menu-icon{
+  display: none;
+}
+@media screen and (max-width:768px) {
+  .nav-links{
+    display: none !important;
+  }
+  .nav-links-mobile{
+    position: absolute;
+    display: block !important;
+    background-color:#005469;
+    left:0rem;
+    top:75px;
+    transition: all 0.5 ease-in-out;
+    width: 100%;
+  }
+  .mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    background-color: #005469;
+    border: none;
+    outline: none;
+    right: 2rem;
+    top:1.4rem;
+  }
+  .portfolio img{
+    width: 100% !important;
+  }
+}
+.social-icons li{
+  padding:15px;
+}
+.social-icons li a{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color:#fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 43px;
+  background: rgba(0, 0, 0, .3);
+}
+.social-icons li a:hover{
+  background: #fff;
+  color: red !important;
+}
+.navbar li:hover{
+  color: burlywood;
+}
+.submit-btn{
+  border-radius: 4px;
+  color: white;
+  padding:14px 38px 14px 42px;
+  background:#005469 ;
+  border-style: none;
+}
+.submit-btn:hover{
+  background:  #040c2c;
+  color:#fff;
+}
+#contact .nav{
+  flex-direction: column;
+  display: block;
+}
+.nav li{
+  display: block;
+  padding:15px;
+  font:400  Montserrat,sans-serif;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+color:white !important;
+background: #ababab !important;
+}
+.nav-item a{
+  color: inherit;
+}
+.address{
+  display: flex;
+}
+.about-info h5{
+  color: #999;
+}
+.about-image img{
+  width: 100%;
+  height: 20rem;
+}
+#services{
+background: #fafafa;
+}
+.bottom-line{
+  width: 80px;
+  height: 2px;
+  display: inline-block;
+  margin: 15px auto;
+  background: #bcbcbc;
+}
+.works{
+  background: #fff;
+  padding: 40px 25px 30px;
+  border: 1px solid #f3f1f1;
+}
+.works:hover{
+background: #005469;
+color: white;
+}
+.works h2{
+  font-size: 20px;
+  color: green;
+}
+.portfolio-menu li{
+  border-radius: 2px;
+  border:1px solid #ededed;
+  color: #040c2c;
+  padding: 0 25px;
+  padding:14px 38px 14px 42px;
+  background-color:transparent;
+}
+.portfolio-menu li:hover{
+  background: #040c2c;
+  color: white;
+
+}
+.portfolio-menu li button{
+color: inherit;
+text-decoration: none;
+}
+.portfolio img{
+  width: 40rem;
+  height: 350px;
+}
+.df{
+text-align: center;
+}
+.md{
+  border: 1px solid #8a8a8a;
+  border-radius: 50%;
+  color: #bcbcbc;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 29px;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: inline-block;
+}
+.logo >div{
+  color: initial;
+  margin-left: 12rem;
+}
+
+.logo img{
+  width: 100%;
+  height: 9rem;
+}
+footer{
+  background: #040c2c;
+  height: 100px;
+  padding: 40px;
+}
+footer img{
+  width: 150px;
+  height: 100px;
+}
