@@ -4,13 +4,15 @@ import {FaBars} from "react-icons/fa"
 import {MdClose} from "react-icons/md"
 const Header=()=>{
 const [isMobile,setIsMobile]=useState(false)
+const [active,setActive]=useState(false)
+
 return(
     <>
     <section className="navd">
     <nav className="navbar">
-        <a className="logo">
+        {/* <a className="logo">
           <img src="logo.png"/>
-        </a>
+        </a> */}
      
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={()=>setIsMobile(false)}>
             <li><a href="#">Home</a></li>
@@ -34,6 +36,13 @@ return(
         </div> */}
        
     </nav>
+    {/* <div id="wrapper" >
+  <button className={active ? 'btn btn-danger' : 'btn btn-success'} onClick={()=>setActive(false)}>1</button>
+  <button className={active ? 'btn btn-danger' : 'btn btn-success'} onClick={()=>setActive(false)}>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div> */}
      <Home/>
      </section>
      </>

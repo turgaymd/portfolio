@@ -7,8 +7,6 @@ import About from './Components/About';
 import Services from './Components/Services';
 import Portfolio from './Components/Portfolio';
 import Footer from './Components/Footer';
-import Test from './Components/Test';
-import Testl from './Components/Testl';
 import { useEffect, useState } from 'react';
 function App() {
   const [darkMode,setDarkMode]=useState(false)
@@ -22,15 +20,12 @@ function App() {
   },[darkMode])
   return (
     <div className="App">
-      {/* <button onClick={()=>setDarkMode(!darkMode)} className="btn btn-danger">Dark Mode</button> */}
       <Header/>
        <About/>
        <Services/>
        <Portfolio/>
        <Contact/>
        <Footer/>
-       {/* <Test/>
-       <Testl/> */}
     </div>
   );
 }

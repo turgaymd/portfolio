@@ -15,17 +15,13 @@ I am self-motivated and innovative Front-end Developer who is willing to go abov
 </p>
 
 </div>
-<div>
-<a className="submit-btn m-4" href="#contact">
-Hire me
-</a>
-<a className="submit-btn mb-3" href="CV.pdf" download>
-Download CV
-</a>
+<div className="reach-me d-flex justify-content-center">
+<a className="submit-btn" href="#contact">Hire me</a>
+<a className="submit-btn" href="CV.pdf" download>Download CV</a>
 </div>
 </div> 
 <div className="col-lg-5">
-    <div className="about-image mt-5">
+<div className="about-image mt-5">
 <img src="https://startbootstrap.com/assets/img/freepik/wall-post-pana.svg"/>
 </div>
 </div>

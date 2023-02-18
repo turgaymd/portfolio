@@ -19,7 +19,7 @@ const Contact=()=>{
   };
     return(
 <section id="contact" className="mt-4 mb-5">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.436865589689!2d49.947750550921796!3d40.39917187926585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030630fe8f39b49%3A0x331cf816d099a591!2zNTUgQsmZaHJ1eiBOdXJpeWV2LCBRYXJhw6d1eHVyLCBBesmZcmJheWNhbg!5e0!3m2!1saz!2s!4v1664724747879!5m2!1saz!2s" width="100%" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.446216876168!2d49.93320491523193!3d40.42111727936467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030638f7157b94f%3A0xfa384fc53b0cf3d6!2sRizvan%20Teymurov%2063!5e0!3m2!1saz!2s!4v1676739032439!5m2!1saz!2s" width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 <div className="container pt-5 text-center">
 <div className="row">
 <div className="col-lg-6">
