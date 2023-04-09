@@ -10,10 +10,10 @@ return(
     <>
     <section className="navd">
     <nav className="navbar">
-        {/* <a className="logo">
-          <img src="logo.png"/>
-        </a> */}
-     
+ <div className="logo">
+  <h4>Turgay_<span>Mammadov</span></h4>
+ </div>
+ <div className="navbar_content">
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={()=>setIsMobile(false)}>
             <li><a href="#">Home</a></li>
          <li> <a href="#about" >About</a></li>  
@@ -23,6 +23,7 @@ return(
             <li ><a href="#contact">Contact</a></li>
            
         </ul>
+        </div>
         <button className="mobile-menu-icon" onClick={()=>setIsMobile(!isMobile)}>  
                 {isMobile ? (
                   <MdClose/>
@@ -31,18 +32,9 @@ return(
                 )}
             </button>
 
-        {/* <div className="burger-menu">
 
-        </div> */}
-       
     </nav>
-    {/* <div id="wrapper" >
-  <button className={active ? 'btn btn-danger' : 'btn btn-success'} onClick={()=>setActive(false)}>1</button>
-  <button className={active ? 'btn btn-danger' : 'btn btn-success'} onClick={()=>setActive(false)}>2</button>
-  <button>3</button>
-  <button>4</button>
-  <button>5</button>
-</div> */}
+
      <Home/>
      </section>
      </>

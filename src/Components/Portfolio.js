@@ -14,10 +14,10 @@ const [open, setOpen] = useState(false);
 <Tab.Container id="left-tabs-example" defaultActiveKey="first" className="mt-4">
 <Nav variant="pills" className="flex-row justify-content-center mb-5 mt-5">
 <Nav.Item>
-              <Nav.Link eventKey="second">Web</Nav.Link>
+              <Nav.Link eventKey="second">Web Design</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="first">Development</Nav.Link>
+              <Nav.Link eventKey="first">Admin Dashboard</Nav.Link>
             </Nav.Item>
           
             <Nav.Item>

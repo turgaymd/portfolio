@@ -1,7 +1,8 @@
-import {IoLocationOutline} from "react-icons/io5"
+
 import {MdEmail} from "react-icons/md"
 import { useRef } from "react"
-import { FaPhoneAlt } from "react-icons/fa"
+import { BsWhatsapp } from "react-icons/bs"
+import {RiMessengerLine} from "react-icons/ri"
 import emailjs from '@emailjs/browser';
 import swal from "sweetalert"
 const Contact=()=>{
@@ -19,41 +20,43 @@ const Contact=()=>{
   };
     return(
 <section id="contact" className="mt-4 mb-5">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.446216876168!2d49.93320491523193!3d40.42111727936467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030638f7157b94f%3A0xfa384fc53b0cf3d6!2sRizvan%20Teymurov%2063!5e0!3m2!1saz!2s!4v1676739032439!5m2!1saz!2s" width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-<div className="container pt-5 text-center">
-<div className="row">
-<div className="col-lg-6">
+<h5>Get In Touch</h5>
 <h2 className="mb-4">Contact Me</h2>
-<div className="contact-info">
-<ul className="nav">
-<li> <div className="address"><MdEmail fontSize={24} />  <a>  &nbsp; Email:memmedovturqay871@gmail.com</a></div></li>
-<li><div className="address"> <FaPhoneAlt fontSize={24}/> &nbsp; Phone: +994(70)5110677</div></li>
-<li> <div className="address"> <IoLocationOutline fontSize={24}/>&nbsp; Address:Behruz Nuriyev 55/57</div></li>
-</ul>
+<div className="container contact_container">
+<div className="contact_options">
+<article>
+<MdEmail  className="contact_icon"/>
+    <h5>Email</h5>
+    <h6>memmedovturqay871@gmail.com</h6>
+    <a href="mailto: memmedovturqay871@gmail.com" target="_blank">  Send a message </a>
+    </article>
+    <article>
+<RiMessengerLine className="contact_icon"/>
+    <h5>Messenger</h5>
+    <h6>Turqay Memmedov</h6>
+    <a href="https://www.messenger.com/t/100000953835462" target="_blank">  Send a message </a>
+    </article>
+    <article>
+<BsWhatsapp className="contact_icon" />
+    <h5>WhatsApp</h5>
+    <h6>+994705110677</h6>
+    <a href="https://api.whatsapp.com/send?phone=994705110677" target="_blank">  Send a message </a>
+    </article>
 </div>
-</div>
-<div className="col-lg-6">
-<h2 className="mb-4">Contact Form</h2>
+<div>
 <form ref={form}  onSubmit={sendEmail}>
- <div className="row">
-<div className="col-lg-6">
-<label className="mb-3"></label>
+{/* <label className="mb-3"></label> */}
 <input className="form-control" name="name" placeholder="Your Name*" required/>
-<label className="mb-3"></label>
+{/* <label className="mb-3"></label> */}
 <input className="form-control" name="phone" placeholder="Phone number*" />
-</div>
-<div className="col-lg-6">
-<label className=" mb-3"></label>
+{/* <label className=" mb-3"></label> */}
 <input className="form-control" name="email" placeholder="Email*" required/>
 <label className=" mb-3"></label>
-<input className="form-control" name="subject" placeholder="Subject*" required/>
-</div>
-</div>
-<label className=" mb-3"></label>
-<textarea placeholder="Your Message ..." className="form-control mb-3" rows="5"></textarea>
-<button type="submit" className="submit-btn mt-5">Send Message</button>
+{/* <input className="form-control" name="subject" placeholder="Subject*" required/> */}
+{/* <label className=" mb-3"></label> */}
+<textarea placeholder="Your Message ..." className="form-control" rows="7"></textarea>
+<button type="submit" className="submit-btn">Send Message</button>
 </form>
-</div>
 </div>
 </div>
 </section>

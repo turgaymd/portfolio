@@ -1,9 +1,4 @@
 
-body{
-  font-family:Open Sans,sans-serif;
-  font-size: 17px;
-  color: #797979;
-}
 .dark{
 color: white;
 background-color: #797979;
@@ -25,22 +20,31 @@ h2{
   font-weight: 700;
   color: #040c2c;
 }
-.logo{
-  margin-left: 9rem;
-}
+
 .navd{
-  background: url("../public/banner.webp");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 400px;
 }
-
+.navbar{
+  margin-top: 2rem;
+}
+.nav-links{
+  justify-content: end;
+  margin-right: 2rem;
+  margin-bottom: inherit;
+}
 .navbar ul{
   display: flex;
 }
 .navbar ul li{
   padding:15px;
+}
+.navbar .logo{
+  margin-left: 2rem;
+}
+.navbar .logo span{
+  color: red !important;
 }
 .mobile-menu-icon{
   display: none;
@@ -100,6 +104,7 @@ h2{
   padding:14px 38px 14px 42px;
   background:#005469 ;
   border-style: none;
+  margin: 0 auto;
 }
 .submit-btn:hover{
   background:  #040c2c;
@@ -131,9 +136,6 @@ background: #ababab !important;
 .about-image img{
   width: 100%;
   height: 20rem;
-}
-#services{
-background: #fafafa;
 }
 .bottom-line{
   width: 80px;
@@ -185,7 +187,7 @@ text-align: center;
 .md{
   border: 1px solid #8a8a8a;
   border-radius: 50%;
-  color: #bcbcbc;
+  color:white;
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -204,9 +206,9 @@ text-align: center;
   height: 9rem;
 }
 footer{
-  background: #040c2c;
-  height: 100px;
+  background: var(--color-primary);
   padding: 40px;
+  text-align: center;
 }
 footer img{
   width: 150px;
@@ -214,4 +216,149 @@ footer img{
 }
 .reach-me a{
   margin:0.4rem;
+}
+.footer_logo{
+font-size:2rem;
+color: black;
+font-weight: 500;
+display: block;
+margin-bottom: 2rem;
+}
+.footer_logo:hover{
+color: white;
+}
+.footer_social{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+  margin-bottom: 3rem;
+}
+.footer_social a{
+  background: black;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+.contact_container{
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap:12%;
+}
+.contact_options{
+  display: flex;
+  flex-direction: column;
+  gap:1.2rem;
+}
+.contact_options article{
+  background-color: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+}
+.contact_options article a{
+  display: inline-block;
+  margin-top: 0.7rem;
+}
+.contact_icon{
+  font-size:1.5rem;
+  margin-bottom: 1.4rem;
+  
+}
+#contact form{
+display: flex;
+flex-direction: column;
+gap:1.2rem;
+}
+#contact input, #contact textarea{
+  width: 100%;
+  resize: none;
+  padding: 1.5rem;
+  background: transparent;
+  color: white;
+  border: 2px solid var(--color-primary-variant);
+}
+@media screen and (max-width:1024px) {
+  .contact_container{
+    grid-template-columns: 1fr;
+    gap:2rem;
+  }
+  
+}
+.about_container{
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap:15%;
+}
+.about_me{
+   width: 100%;
+    display: grid;
+    aspect-ratio: 1/1;
+    background: linear-gradient(45deg, transparent,var(--color-primary),transparent);
+    place-items: center;
+    border-radius: 2rem;
+}
+.about_me-img{
+overflow: hidden;
+transform: rotate(10deg);
+border-radius: 2rem;
+}
+.about_me-img img{
+  width: 99%;
+  height: 100%;
+}
+.services_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:3rem;
+}
+.service{
+background-color: var(--color-bg-variant);
+border-radius: 2rem;
+border: 1px solid var(--color-primary);
+}
+.service_head{
+  padding: 1.5rem;
+}
+.service_head h4{
+  font-size: 1rem;
+
+}
+.service_head a{
+  font-size: 2rem;
+  color: white;
+}
+.text_light{
+  color:var(--color-light) !important;
+}
+header{
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 4rem;
+}
+.header_container{
+  text-align: center;
+  margin-bottom: 7rem;
+  height: 100%;
+  position: relative;
+}
+.me{
+  background: linear-gradient(var(--color-primary),transparent);
+ width: 22rem;
+  height: 25rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  overflow: hidden;
+  margin-top: 3rem;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 12rem 12rem 0 0;
+}
+.me img{
+  max-width: 100%;
+}
+.service ul li{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
