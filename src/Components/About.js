@@ -1,7 +1,7 @@
 const About=()=>{
     return(
         <div>
-           <section id="about" className="mt-5 mb-5">
+           <section id="about">
            <h5>
 Get To Know
 </h5>
