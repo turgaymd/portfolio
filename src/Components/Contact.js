@@ -28,7 +28,7 @@ const Contact=()=>{
 <MdEmail  className="contact_icon"/>
     <h5>Email</h5>
     <h6>memmedovturqay871@gmail.com</h6>
-    <a href="mailto: memmedovturqay871@gmail.com" target="_blank">  Send a message </a>
+    <a href="mailto:turqayeuro2020@gmail.com" target="_blank">  Send a message </a>
     </article>
     <article>
 <RiMessengerLine className="contact_icon"/>

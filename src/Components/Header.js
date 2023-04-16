@@ -11,7 +11,7 @@ return(
     <section className="navd">
     <nav className="navbar">
  <div className="logo">
-  <h4>Turgay_<span>Mammadov</span></h4>
+  <h4>Turgay</h4>
  </div>
  <div className="navbar_content">
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={()=>setIsMobile(false)}>

@@ -13,7 +13,7 @@ const Footer=()=>{
 <a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
 
     </div>
-<p >   © 2022 Portfolio - All Rights Reserved</p>
+<p className="footer_copyright">   © 2022 Portfolio - All Rights Reserved</p>
 </div>
 
 </footer>
