@@ -161,6 +161,40 @@ color: white !important;
   font-size: 20px;
   color: white;
 }
+.portfolio-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:2.5rem;
+}
+.portfolio-item{
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2.5rem;
+  border: 1px solid transparent;
+  transition: 2s;
+}
+.portfolio-item:hover{
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+.portfolio-item img{
+  max-width: 22rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.portfolio-item{
+max-width: 25rem;
+text-align: center;
+}
+.portfolio-item h4{
+  margin-top: 1.5rem;
+}
+.portfolio-links{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+  margin-top: 1rem;
+}
 .portfolio-menu li{
   border-radius: 2px;
   border:1px solid #ededed;
@@ -361,6 +395,10 @@ header{
   .contact_container{
     grid-template-columns: 1fr;
     gap:2rem;
+  }
+  .portfolio-container{
+    grid-template-columns: 1fr;
+    gap:1.5rem;
   }
   .services_container{
     grid-template-columns: 1fr;
