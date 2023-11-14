@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.24.0",
     "bootstrap": "^5.2.1",
-    "caniuse-lite": "^1.0.30001476",
     "emailjs": "^4.0.1",
     "netlify-cli": "^13.2.2",
     "react": "^18.2.0",
