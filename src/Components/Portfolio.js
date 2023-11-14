@@ -19,7 +19,7 @@ const [open, setOpen] = useState(false);
 <h4>E-commerce app</h4>
 <div className='portfolio-links'>
 <a href='https://github.com/turqay667/e-commerce'  className='btn btn-success' target='_'>GitHub</a>
-<a href="https://acessories-d3d34065ee2d.herokuapp.com" target='_' className='btn btn-primary'>Live Demo</a>
+<a href="https://accessories-az.onrender.com/" target='_blank' className='btn btn-primary'>Live Demo</a>
 </div>
 
 </article>
