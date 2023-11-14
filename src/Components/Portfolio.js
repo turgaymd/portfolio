@@ -18,7 +18,7 @@ const [open, setOpen] = useState(false);
 </div>
 <h4>E-commerce app</h4>
 <div className='portfolio-links'>
-<a href='https://github.com/turqay667accessories.az' className='btn btn-success' target='_blank'>GitHub</a>
+<a href='https://github.com/turqay667/accessories.az' className='btn btn-success' target='_blank'>GitHub</a>
 <a href="https://accessories-az.onrender.com/" target='_blank' className='btn btn-primary'>Live Demo</a>
 </div>
 
