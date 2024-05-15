@@ -145,6 +145,7 @@ background: #ababab !important;
   margin: 15px auto;
   background: #bcbcbc;
 }
+
 .works{
   background: #2C2C2C;
   opacity: .6;
@@ -242,7 +243,7 @@ text-align: center;
 }
 footer{
   background: var(--color-primary);
-  padding: 40px;
+  padding: 30px;
   text-align: center;
 }
 footer img{

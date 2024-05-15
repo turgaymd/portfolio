@@ -7,7 +7,7 @@ return (
         
         <h5>Hello, I'm </h5>
     <h2 >Turgay Mammadov</h2>
-    <h5 className="text_light">Fullstack Developer</h5>
+    <h5 className="text_light">Front-end Developer</h5>
 <div className="me">
     <img src="admin.png" alt="me"/>
 </div>
