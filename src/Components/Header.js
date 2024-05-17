@@ -8,7 +8,7 @@ const [active,setActive]=useState(false)
 
 return(
     <>
-    <nav className="navbar pb-5">
+    <nav className="navbar">
  <div className="logo">
   <h4>Turgay</h4>
  </div>

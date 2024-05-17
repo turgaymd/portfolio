@@ -34,8 +34,21 @@ section h2::after{
   transition: .5s;
 
 }
-.me img{
-  border-radius: 25px;
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.admin{
+  padding-bottom: 1rem;
+}
+.admin img{
+  position: relative;
+  border-radius:50%;
+
+  width: 20vw;
+
 }
 section h2:hover::after{
   width: 8rem;
@@ -385,9 +398,6 @@ border: 1px solid var(--color-primary);
 }
 .text_light{
   color:var(--color-light) !important;
-}
-.primary_btn{
-  padding-left: 3rem;
 }
 
 .service ul li{
