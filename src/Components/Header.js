@@ -8,8 +8,7 @@ const [active,setActive]=useState(false)
 
 return(
     <>
-    <section className="navd">
-    <nav className="navbar">
+    <nav className="navbar pb-5">
  <div className="logo">
   <h4>Turgay</h4>
  </div>
@@ -36,7 +35,6 @@ return(
     </nav>
 
      <Home/>
-     </section>
      </>
 )
 }

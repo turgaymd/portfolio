@@ -5,11 +5,10 @@ import { Nav,Tab,TabContainer} from 'react-bootstrap';
 const Portfolio=()=>{
 const [open, setOpen] = useState(false);
     return(
-<section className="portfolio mt-5 mb-5" id="portfolio">
+<section className="portfolio mt-5 mb-5 pb-5" id="portfolio">
 <div className="portfolio-title text-center">
 <h2>My Portfolio</h2>
 <h4>This is what demonstrates my knowledge</h4> 
-<span className="bottom-line"></span>
 </div>
 <div className='portfolio-container container'>
 <article className='portfolio-item'>

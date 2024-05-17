@@ -19,6 +19,30 @@ a{
 h2{
   font-weight: 700;
   color: #040c2c;
+  position: relative;
+}
+section h2::after{
+  position: absolute;
+  content: '';
+  width: 5rem;
+  height: 2px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 3rem;
+  background: #bcbcbc;
+  transition: .5s;
+
+}
+.me img{
+  border-radius: 25px;
+}
+section h2:hover::after{
+  width: 8rem;
+}
+section h4{
+  padding-bottom: 5rem;
+  text-align: center;
 }
 
 .navd{
@@ -362,31 +386,10 @@ border: 1px solid var(--color-primary);
 .text_light{
   color:var(--color-light) !important;
 }
-header{
-  height: 100vh;
-  overflow: hidden;
-  padding-top: 4rem;
+.primary_btn{
+  padding-left: 3rem;
 }
-.header_container{
-  text-align: center;
-  margin-bottom: 7rem;
-  height: 100%;
-  position: relative;
-}
-.me{
-  background: linear-gradient(var(--color-primary),transparent);
- width: 22rem;
-  height: 25rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  overflow: hidden;
-  margin-top: 3rem;
-  padding: 3rem 1.5rem 1.5rem 1.5rem;
-  border-radius: 12rem 12rem 0 0;
-}
-.me img{
-  max-width: 100%;
-}
+
 .service ul li{
   display: flex;
   gap: 1rem;

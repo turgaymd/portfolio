@@ -20,8 +20,9 @@ const Contact=()=>{
   };
     return(
 <section id="contact" className="mt-4 mb-5">
-<h5>Get In Touch</h5>
 <h2 className="mb-4">Contact Me</h2>
+<h4>Get In Touch</h4>
+
 <div className="container contact_container">
 <div className="contact_options">
 <article>
