@@ -10,7 +10,7 @@ return(
     <>
     <nav className="navbar">
  <div className="logo">
-  <h4>Turgay</h4>
+  <a href="/">Turgay</a>
  </div>
  <div className="navbar_content">
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={()=>setIsMobile(false)}>
@@ -18,7 +18,6 @@ return(
          <li> <a href="#about" >About</a></li>  
           <li><a href="#services">Service</a></li>  
             <li><a href="#portfolio">Portfolio</a></li>
-            {/* <li><a>Blog</a></li> */}
             <li ><a href="#contact">Contact</a></li>
            
         </ul>

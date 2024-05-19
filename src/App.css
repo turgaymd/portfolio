@@ -8,7 +8,7 @@ ul{
 }
 a{
   text-decoration: none !important;
-  color: inherit;
+  color: inherit !important;
 }
 .nav-links a{
   color: white;
@@ -39,6 +39,7 @@ section h2::after{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 .admin{
   padding-bottom: 1rem;
@@ -46,8 +47,10 @@ section h2::after{
 .admin img{
   position: relative;
   border-radius:50%;
+max-width: 300px;
+height: auto;
+box-shadow: 0 0 5px 5px #2c2c6c;
 
-width: 20rem;
 
 }
 section h2:hover::after{
@@ -58,11 +61,6 @@ section h4{
   text-align: center;
 }
 
-.navd{
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-}
 
 .nav-links{
   justify-content: end;
@@ -83,6 +81,9 @@ section h4{
 }
 .navbar .logo span{
   color: red !important;
+}
+.logo a{
+  font-size: 24px;
 }
 .mobile-menu-icon{
   display: none;
@@ -106,7 +107,7 @@ section h4{
     position: absolute;
     font-size: 25px;
     color: white;
-    background-color: #005469;
+    background-color: inherit;
     border: none;
     outline: none;
     z-index: 1;
@@ -114,7 +115,8 @@ section h4{
  
   }
   .portfolio img{
-    width: 100% !important;
+    width: 510px;
+    height: 460px;
   }
 }
 .social-icons li{

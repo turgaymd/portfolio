@@ -15,7 +15,7 @@ const [open, setOpen] = useState(false);
 <div className='portfolio-img'>
 <img src='ecommerce.png'/>
 </div>
-<h4>E-commerce app</h4>
+<h5 className='pt-3'>E-commerce app</h5>
 <div className='portfolio-links'>
 <a href='https://github.com/turqay667/accessories.az' className='btn btn-success' target='_blank'>GitHub</a>
 <a href="https://accessories-az.onrender.com/" target='_blank' className='btn btn-primary'>Live Demo</a>
@@ -26,7 +26,7 @@ const [open, setOpen] = useState(false);
 <div className='portfolio-img'>
 <img src='forecast.png'/>
 </div>
-<h4>Weather App</h4>
+<h5 className='pt-3'>Weather App</h5>
 <div className='portfolio-links'>
 <a href='https://github.com/' className='btn btn-success'  target='_blank'>GitHub</a>
 <a href="https://lastforecast.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -36,7 +36,7 @@ const [open, setOpen] = useState(false);
 <div className='portfolio-img'>
 <img src='advice_generator.png'/>
 </div>
-<h4> Advice Generator App</h4>
+<h5 className='pt-3'>  Advice Generator App</h5>
 <div className='portfolio-links'>
 <a href='https://github.com/turqay667/advice_generator' target='_blank' className='btn btn-success'>GitHub</a>
 <a href="https://turqay667.github.io/advice_generator/" className='btn btn-primary' target='_blank'>Live Demo</a>
