@@ -320,7 +320,7 @@ color: white;
   display: flex;
   justify-content: center;
   gap:1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .footer_social a{
   background: black;
