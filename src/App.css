@@ -47,8 +47,9 @@ section h2::after{
 .admin img{
   position: relative;
   border-radius:50%;
-max-width: 300px;
+max-width: 250px;
 height: auto;
+background: linear-gradient(90deg, rgba(7, 10, 66, 1) 0%, rgba(7, 9, 71, 1) 100%);
 box-shadow: 0 0 5px 5px #2c2c6c;
 
 
@@ -379,16 +380,21 @@ gap:1.2rem;
     aspect-ratio: 1/1;
     background: linear-gradient(45deg, transparent,var(--color-primary),transparent);
     place-items: center;
-    border-radius: 2rem;
+    border-radius: 50%;
 }
 .about_me-img{
 overflow: hidden;
 transform: rotate(10deg);
-border-radius: 2rem;
+border-radius: 50%;
+box-shadow:  0 0 5px 5px #005469;
 }
 .about_me-img img{
-  width: 99%;
+  width: 400px;
   height: 100%;
+  background: red;
+
+  z-index: 1;
+  
 }
 .services_container{
   display: grid;
@@ -438,7 +444,6 @@ border: 1px solid var(--color-primary);
     gap:0;
   }
   .about_me{
-    width: 50%;
     margin:2rem  auto 4rem;
   }
   

@@ -10,7 +10,7 @@ Get To Know
             <div className="container about_container">      
             <div className="about_me">
 <div className="about_me-img">
-<img src="admin.jpeg"/>
+<img src="avatar.png"/>
 </div>
 </div>
 

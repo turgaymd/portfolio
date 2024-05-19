@@ -5,7 +5,7 @@ return (
 <header>
     <div className="home  mb-5">
         <div className="admin">
-    <img src="admin.jpeg" className="img-fluid" alt="me"/>
+    <img src="avatar.png" className="img-fluid" alt="me"/>
 </div>
             <div className="typewriter">
         {/* <p>Hey there ! </p> */}
