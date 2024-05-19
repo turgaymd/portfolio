@@ -29,7 +29,7 @@ section h2::after{
   left: 0;
   right: 0;
   margin: 0 auto;
-  top: 3rem;
+  top: 2.5rem;
   background: #bcbcbc;
   transition: .5s;
 
@@ -375,23 +375,22 @@ gap:1.2rem;
   gap:15%;
 }
 .about_me{
-   width: 100%;
-    display: grid;
-    aspect-ratio: 1/1;
-    background: linear-gradient(45deg, transparent,var(--color-primary),transparent);
-    place-items: center;
-    border-radius: 50%;
+    background:#1f1f38;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    /* border-radius: 50%; */
 }
 .about_me-img{
 overflow: hidden;
-transform: rotate(10deg);
+/* transform: rotate(10deg); */
+padding: 10 10px 10px 10px;
 border-radius: 50%;
 box-shadow:  0 0 5px 5px #005469;
 }
 .about_me-img img{
-  width: 400px;
+  width: 300px;
   height: 100%;
-  background: red;
 
   z-index: 1;
   
