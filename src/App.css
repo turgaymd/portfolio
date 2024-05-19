@@ -282,6 +282,9 @@ text-align: center;
   padding: 15px;
   display: inline-block;
 }
+.md:hover{
+  background-color: #005469;
+}
 .logo >div{
   color: initial;
   margin-left: 12rem;
@@ -404,6 +407,7 @@ box-shadow:  0 0 5px 5px #005469;
 background-color: var(--color-bg-variant);
 border-radius: 2rem;
 border: 1px solid var(--color-primary);
+box-shadow: 5px 5px 5px 5px #005469;
 }
 .service_head{
   padding: 1.5rem;
