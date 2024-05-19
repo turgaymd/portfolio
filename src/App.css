@@ -230,12 +230,11 @@ color: white !important;
   border-color: var(--color-primary-variant);
 }
 .portfolio-item img{
-  max-width: 22rem;
+  max-width: 19rem;
   border-radius: 1.5rem;
   overflow: hidden;
 }
 .portfolio-item{
-max-width: 25rem;
 text-align: center;
 }
 .portfolio-item h4{
@@ -265,7 +264,6 @@ color: inherit;
 text-decoration: none;
 }
 .portfolio img{
-  width: 40rem;
   height: 350px;
 }
 .df{
