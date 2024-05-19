@@ -9,14 +9,14 @@ const Services=()=>{
 <div className="container services_container">
  <article className="service">
  <div className="service_head"> 
-<a className=""><ion-icon name="desktop-outline"></ion-icon></a>
+<a ><ion-icon name="desktop-outline"></ion-icon></a>
 <h5>Web Design</h5>
 </div>
 <ul><li>Building websites and apps that are responsive and usable.</li></ul>
 </article>
 <article className="service"> 
 <div className="service_head"> 
-<a className=""><ion-icon name="logo-android"></ion-icon></a>
+<a ><ion-icon name="logo-android"></ion-icon></a>
 <h5>Mobile Development</h5>
 </div>
 <ul>
@@ -25,7 +25,7 @@ const Services=()=>{
 </article>
 <article className="service">
 <div className="service_head"> 
-<a className=""><ion-icon name="trending-up"></ion-icon></a>
+<a ><ion-icon name="trending-up"></ion-icon></a>
 <h5>Search Engine Optimization</h5>
 </div>
 <ul>

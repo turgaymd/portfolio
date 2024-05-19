@@ -13,7 +13,7 @@ return (
         </div>
     <h4 className="text_light">Front-end Developer</h4>
     <div className="primary_btn pb-3">
-    <a className="btn btn-primary text-white" href="#portfolio">See my works</a>
+    <a className="btn btn-primary text-white" href="#portfolio">See more</a>
     </div>
 
     </div>
