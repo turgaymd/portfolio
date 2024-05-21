@@ -327,6 +327,7 @@ footer img{
 }
 .reach-me a{
   margin:0.4rem;
+  text-wrap: nowrap;
 }
 .footer_logo{
 font-size:2rem;
