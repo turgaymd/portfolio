@@ -283,7 +283,7 @@ text-decoration: none;
 }
 .portfolio-img{
   border-bottom: 1px solid gray;
-  padding: 20px;
+  padding-bottom: 20px;
   margin-bottom: 1rem;
 }
 .portfolio-links a{
