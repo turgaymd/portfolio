@@ -359,10 +359,20 @@ margin-bottom: 2rem;
   grid-template-columns: 30% 58%;
   gap:12%;
 }
+.options{
+  display: flex;
+}
 .contact_options{
   display: flex;
   flex-direction: column;
   gap:1.2rem;
+}
+#contact article{
+  box-shadow: 0 0 5px 5px #4db5ff66;
+}
+#contact h6{
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .contact_options article{
   background-color: var(--color-bg-variant);
@@ -372,11 +382,14 @@ margin-bottom: 2rem;
 }
 .contact_options article a{
   display: inline-block;
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
+  background: #4db5ff66;
+  padding: 10px;
+  border-radius: 10px;
 }
 .contact_icon{
-  font-size:1.5rem;
-  margin-bottom: 1.4rem;
+  font-size:2rem;
+  margin-bottom: 1rem;
   
 }
 #contact form{
