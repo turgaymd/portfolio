@@ -16,7 +16,7 @@ return(
  </div>
  <div className="navbar_content">
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={()=>setIsMobile(false)}>
-            <li><a href="#">Home</a></li>
+            {/* <li><a href="#">Home</a></li> */}
          <li> <a href="#about" >About</a></li>  
           <li><a href="#services">Service</a></li>  
             <li><a href="#portfolio">Portfolio</a></li>

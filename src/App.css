@@ -17,6 +17,10 @@ a{
 .nav-links-mobile a{
   color: #fff;
 }
+section{
+margin-top: 5rem;
+}
+
 h2{
   font-weight: 700;
   color: #040c2c;
@@ -90,7 +94,7 @@ to {width: 100%;}
   width: 8rem;
 } */
 section h4{
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
@@ -206,6 +210,15 @@ background: #ababab !important;
 .address{
   display: flex;
 }
+.about_container{
+  background: #1f1f44;
+  padding: 20px;
+}
+.about-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .about-info p{
   line-height: 30px;
   color: #c4cfde;
@@ -213,9 +226,27 @@ background: #ababab !important;
 .about-info h5{
   color: #999;
 }
-.about-image img{
+.about_me{
+  position: relative;
+}
+.about_me-img{
+  display: flex;
+  justify-content: space-around;
+}
+.about_me img{
   width: 100%;
   height: 20rem;
+  background: radial-gradient(black, transparent);
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 2px black;
+}
+.line{
+
+  width: 2.5px;
+  max-height: 100%;
+  margin-left: 15px;
+  background: #bcbcbc;
+  transition: .5s;
 }
 .bottom-line{
   width: 80px;
@@ -258,7 +289,7 @@ color: white !important;
   border-color: var(--color-primary-variant);
 }
 .portfolio-item img{
-  max-width: 19rem;
+  max-width: 17rem;
   border-radius: 1.5rem;
   overflow: hidden;
 
@@ -347,6 +378,8 @@ footer img{
 .reach-me a{
   margin:0.4rem;
   text-wrap: nowrap;
+  text-align: center;
+  font-weight: 600;
 }
 .footer_logo{
 font-size:2rem;
@@ -363,7 +396,7 @@ margin-bottom: 2rem;
   margin-bottom: 2rem;
 }
 .footer_social a{
-  background: black;
+  border: 2px solid rgba(255, 255, 255, .3) !important;
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
@@ -385,6 +418,7 @@ margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap:1.2rem;
+
 }
 #contact article{
   box-shadow: 0 0 5px 5px #4db5ff66;
@@ -395,7 +429,8 @@ margin-bottom: 2rem;
 }
 .contact_options article{
   background-color: var(--color-bg-variant);
-  padding: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 2rem;
   border-radius: 1.2rem;
   text-align: center;
 }
@@ -425,29 +460,19 @@ gap:1.2rem;
   border: 2px solid var(--color-primary-variant);
 }
 
-.about_container{
-  display: grid;
-  grid-template-columns: 35% 50%;
-  gap:15%;
-}
+
 .about_me{
-    background:#1f1f38;
+
     display: flex;
     justify-self: center;
     align-items: center;
-    /* border-radius: 50%; */
+    border-radius: 50%;
 }
-.about_me-img{
-overflow: hidden;
-/* transform: rotate(10deg); */
-padding: 10 10px 10px 10px;
-border-radius: 50%;
-box-shadow:  0 0 5px 5px #2c2c6c;
-}
+
+
 .about_me-img img{
   width: 300px;
   height: 100%;
-
   z-index: 1;
   
 }
@@ -469,9 +494,10 @@ box-shadow: 5px 5px 5px 5px #005469;
   font-size: 1rem;
 
 }
+
 .service_head a{
   font-size: 2rem;
-  color: white;
+  /* color: white; */
 }
 .text_light{
   color:var(--color-light) !important;
@@ -481,6 +507,11 @@ box-shadow: 5px 5px 5px 5px #005469;
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+@media screen and (max-width:768px) {
+  .line{
+    display: none;
+  }
 }
 @media screen and (max-width:1024px) {
   .contact_container{
@@ -504,3 +535,4 @@ box-shadow: 5px 5px 5px 5px #005469;
   }
   
 }
+
