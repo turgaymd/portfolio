@@ -1,7 +1,7 @@
-
-.dark{
-color: white;
-background-color: #797979;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 ul{
   list-style: none;
@@ -239,6 +239,7 @@ background: #ababab !important;
   background: radial-gradient(black, transparent);
   border-radius: 50%;
   box-shadow: 2px 2px 2px 2px black;
+  margin-bottom: 1rem;
 }
 .line{
 
@@ -247,6 +248,7 @@ background: #ababab !important;
   margin-left: 15px;
   background: #bcbcbc;
   transition: .5s;
+
 }
 .bottom-line{
   width: 80px;
@@ -289,7 +291,7 @@ color: white !important;
   border-color: var(--color-primary-variant);
 }
 .portfolio-item img{
-  max-width: 17rem;
+  width: 100%;
   border-radius: 1.5rem;
   overflow: hidden;
 
@@ -374,6 +376,9 @@ footer{
 footer img{
   width: 150px;
   height: 100px;
+}
+.reach-me{
+  padding: 1rem;
 }
 .reach-me a{
   margin:0.4rem;

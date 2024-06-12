@@ -13,7 +13,7 @@ const [open, setOpen] = useState(false);
 <div className='portfolio-container container'>
 <article className='portfolio-item'>
 <div className='portfolio-img'>
-<img src='ecommerce.png'/>
+<img src='e-commerce.jpeg'/>
 </div>
 <a className='pt-3'>Modern E-commerce </a>
 <div className='portfolio-links'>
@@ -24,7 +24,7 @@ const [open, setOpen] = useState(false);
 </article>
 <article className='portfolio-item'>
 <div className='portfolio-img'>
-<img src='forecast.png'/>
+<img src='forecast.jpeg'/>
 </div>
 <a className='pt-3'>Weather Forecast</a>
 <div className='portfolio-links'>
@@ -34,7 +34,7 @@ const [open, setOpen] = useState(false);
 </article>
 <article className='portfolio-item'>
 <div className='portfolio-img'>
-<img src='advice_generator.png'/>
+<img src='advice.jpeg'/>
 </div>
 <a className='pt-3'>  Advice Generator </a>
 <div className='portfolio-links'>
