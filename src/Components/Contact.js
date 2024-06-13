@@ -19,7 +19,7 @@ const Contact=()=>{
       });
   };
     return(
-<section id="contact" className="mt-4 mb-5">
+<section id="contact">
 <h2 className="mb-4">Contact Me</h2>
 <h4>Get In Touch</h4>
 

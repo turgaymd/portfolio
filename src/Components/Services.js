@@ -3,7 +3,7 @@ import {GrOptimize} from "react-icons/gr"
 const Services=()=>{
     return(
         <div>
-            <section id="services" className="text-center pt-5">
+            <section id="services" className="text-center">
 <h2>Services</h2>
 <h4 className="text-center">What I'm Doing</h4>
 <div className="container services_container">
