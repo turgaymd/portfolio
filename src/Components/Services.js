@@ -12,15 +12,18 @@ const Services=()=>{
 <a ><ion-icon name="desktop-outline"></ion-icon></a>
 <h5>Web Design</h5>
 </div>
-<ul><li>Building websites and apps that are responsive and usable.</li></ul>
+<ul><li>Building websites that are responsive</li>
+<li>Design mobile-based features</li>
+</ul>
 </article>
 <article className="service"> 
 <div className="service_head"> 
 <a ><ion-icon name="logo-android"></ion-icon></a>
-<h5>Mobile Development</h5>
+<h5>Web Scraping</h5>
 </div>
 <ul>
-    <li> Produce fully functional mobile applications writing clean code.</li>
+    <li>Develop scripts to extract data </li>
+    <li>Implement web scraping solutions </li>
 </ul>
 </article>
 <article className="service">
@@ -30,9 +33,10 @@ const Services=()=>{
 </div>
 <ul>
     
-    <li>Performing bug fixes and code reviews.
-        </li>
-        <li>Optimize applications for maximum speed.
+ 
+        <li>Execute SEO strategies
+            </li>
+            <li>Performing bug fixes
             </li></ul>
 </article>
 </div>

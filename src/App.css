@@ -361,7 +361,7 @@ text-align: center;
   height: 45px;
   line-height: 45px;
   font-size: 29px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 15px;
   display: inline-block;
 }
@@ -459,25 +459,32 @@ background-color: var(--color-bg-variant);
 border-radius: 2rem;
 border: 1px solid var(--color-primary);
 box-shadow: 5px 5px 5px 5px #005469;
+padding: 1.2rem;
+}
+.service ul{
+  text-align: left;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+.service ul li::before{
+   content: "\f00c";
+   font-family: FontAwesome;
+   display: inline-block;
+   margin-right: 7px;
 }
 .service_head{
-  padding: 1.5rem;
+  padding: 1rem;
 }
-.service_head h4{
-  font-size: 1rem;
+.service_head h5{
+  color:  rosybrown;
 
 }
 
-.service_head a{
-  font-size: 2rem;
-  /* color: white; */
-}
 .text_light{
   color:var(--color-light) !important;
 }
 
 .service ul li{
-  display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -496,7 +503,7 @@ font-size:2rem;
 color: black;
 font-weight: 500;
 display: block;
-margin-bottom: 2rem;
+margin-bottom: 1.5rem;
 }
 
 .footer_social{
