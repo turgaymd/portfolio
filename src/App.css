@@ -20,6 +20,9 @@ a{
 section{
 margin-bottom: 5.5rem;
 }
+section h2{
+  margin-bottom: 1rem;
+}
 
 h2{
   font-weight: 700;
@@ -34,11 +37,12 @@ section h2::after{
   left: 0;
   right: 0;
   margin: 0 auto;
-  top: 2.7rem;
+  top: 2.5rem;
   background: #bcbcbc;
   transition: .5s;
 
 }
+
 .btn{
   background-color: #005469 !important;
 }
@@ -120,7 +124,8 @@ section h4{
   color: red !important;
 }
 .logo a{
-  font-size: 24px;
+  font-size: 26px;
+  font-weight: bold;
 }
 .mobile-menu-icon{
   display: none;
@@ -354,14 +359,13 @@ text-decoration: none;
 text-align: center;
 }
 .md{
-  border: 1px solid #8a8a8a;
+
   border-radius: 50%;
   color:white;
   width: 45px;
   height: 45px;
   line-height: 45px;
   font-size: 29px;
-  margin-bottom: 10px;
   padding: 15px;
   display: inline-block;
 }
@@ -473,11 +477,10 @@ padding: 1.2rem;
    margin-right: 7px;
 }
 .service_head{
-  padding: 1rem;
+  padding: 0.7rem;
 }
 .service_head h5{
-  color:  rosybrown;
-
+  color: rgba(255,255,255,0.6);
 }
 
 .text_light{
@@ -524,6 +527,7 @@ margin-bottom: 1.5rem;
 }
 .topbutton{
   background-color: #2c2c6c;
+  cursor: pointer;
   position: fixed;
   bottom: 2rem;
   right: 2rem;
