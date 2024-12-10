@@ -34,11 +34,20 @@ const [open, setOpen] = useState(false);
 </article>
 <article className='portfolio-item'>
 <div className='portfolio-img'>
+<img src='tictac.jpeg'/>
+</div>
+<a className='pt-3'>  TIC TAC TOE </a>
+<div className='portfolio-links'>
+<a href='https://github.com/turqay667/tic-tac-toe' target='_blank' className='btn btn-success'>GitHub</a>
+<a href="https://tic-tac-toe-jm6h.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+</div>
+</article>
+<article className='portfolio-item'>
+<div className='portfolio-img'>
 <img src='advice.jpeg'/>
 </div>
 <a className='pt-3'>  Advice Generator </a>
 <div className='portfolio-links'>
-
 <a href='https://github.com/turqay667/advice_generator' target='_blank' className='btn btn-success'>GitHub</a>
 <a href="https://turqay667.github.io/advice_generator/" className='btn btn-primary' target='_blank'>Live Demo</a>
 
