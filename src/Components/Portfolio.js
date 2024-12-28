@@ -28,8 +28,18 @@ const [open, setOpen] = useState(false);
 </div>
 <a className='pt-3'>Weather Forecast</a>
 <div className='portfolio-links'>
-<a href='https://github.com/' className='btn btn-success'  target='_blank'>GitHub</a>
+<a href='https://github.com/turqay667/weather-app' className='btn btn-success'  target='_blank'>GitHub</a>
 <a href="https://lastforecast.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+</div>
+</article>
+<article className='portfolio-item'>
+<div className='portfolio-img'>
+<img src='chat_app.jpeg'/>
+</div>
+<a className='pt-3'>Real-Time Chat Application</a>
+<div className='portfolio-links'>
+<a href='https://github.com/turqay667/chat_app' className='btn btn-success'  target='_blank'>GitHub</a>
+<a href="https://chatapp-mppodtnqj-turqay667s-projects.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
 </div>
 </article>
 <article className='portfolio-item'>
