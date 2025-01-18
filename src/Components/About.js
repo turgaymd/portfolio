@@ -10,7 +10,7 @@ Get To Know
             <div className="container about_container">      
             <div className="about_me row"> 
 <div className="about_me-img col-md-5">
-<img src="turgay.png"/>
+<img src="admin.jpeg"/>
 <div className="line">
 </div>
 </div>
