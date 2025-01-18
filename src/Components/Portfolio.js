@@ -18,7 +18,7 @@ const [open, setOpen] = useState(false);
 <a className='pt-3'>Modern E-commerce </a>
 <div className='portfolio-links'>
 <a href='https://github.com/turqay667/accessories.az' className='btn btn-success' target='_blank'>GitHub</a>
-<a href="https://accessories-az-turqay.vercel.app/" target='_blank' className='btn btn-primary'>Live Demo</a>
+<a href="https://accessories-az.onrender.com/" target='_blank' className='btn btn-primary'>Live Demo</a>
 </div>
 
 </article>
