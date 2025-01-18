@@ -39,7 +39,7 @@ const [open, setOpen] = useState(false);
 <a className='pt-3'>Real-Time Chat Application</a>
 <div className='portfolio-links'>
 <a href='https://github.com/turqay667/chat_app' className='btn btn-success'  target='_blank'>GitHub</a>
-<a href="https://chatapp-mppodtnqj-turqay667s-projects.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+<a href="https://chat-app-bxnf.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
 </div>
 </article>
 <article className='portfolio-item'>
