@@ -36,7 +36,7 @@ const [open, setOpen] = useState(false);
 <div className='portfolio-img'>
 <img src='chat_app.jpeg'/>
 </div>
-<a className='pt-3'>Real-Time Chat Application</a>
+<a className='pt-3'>Real-Time Chat </a>
 <div className='portfolio-links'>
 <a href='https://github.com/turqay667/chat_app' className='btn btn-success'  target='_blank'>GitHub</a>
 <a href="https://chat-app-bxnf.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -50,6 +50,17 @@ const [open, setOpen] = useState(false);
 <div className='portfolio-links'>
 <a href='https://github.com/turqay667/tic-tac-toe' target='_blank' className='btn btn-success'>GitHub</a>
 <a href="https://tic-tac-toe-jm6h.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+</div>
+</article>
+<article className='portfolio-item'>
+<div className='portfolio-img'>
+<img src='note_app.jpeg'/>
+</div>
+<a className='pt-3'>  Note Taking App </a>
+<div className='portfolio-links'>
+<a href='https://github.com/turqay667/note-taking' target='_blank' className='btn btn-success'>GitHub</a>
+<a href="https://note-taking-livid.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
 </div>
 </article>
 <article className='portfolio-item'>
