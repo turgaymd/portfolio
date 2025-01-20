@@ -1,8 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* body{
+  font-family:'Poppins', serif !important;
+} */
 ul{
   list-style: none;
 }
@@ -241,16 +246,16 @@ background: #ababab !important;
 .about_me img{
   width: 100%;
   height: 20rem;
+  padding: 4px;
   background: radial-gradient(black, transparent);
-  border-radius: 50%;
+  /* border-radius: 50%; */
   box-shadow: 2px 2px 2px 2px black;
-  margin-bottom: 1rem;
+
 }
 .line{
 
   width: 2.5px;
   max-height: 100%;
-  margin-left: 15px;
   background: #bcbcbc;
   transition: .5s;
 
@@ -463,18 +468,23 @@ background-color: var(--color-bg-variant);
 border-radius: 2rem;
 border: 1px solid var(--color-primary);
 box-shadow: 5px 5px 5px 5px #005469;
-padding: 1.2rem;
+padding: 1rem;
+cursor: pointer;
+}
+.service:hover{
+  box-shadow: 5px 10px 10px 5px #005469;
 }
 .service ul{
   text-align: left;
-  font-weight: 600;
-  padding-left: 1rem;
+  font-weight: 400;
+  padding: 10px;
+  line-height: 2;
 }
 .service ul li::before{
    content: "\f00c";
    font-family: FontAwesome;
    display: inline-block;
-   margin-right: 7px;
+   margin-right: 1rem;
 }
 .service_head{
   padding: 0.7rem;

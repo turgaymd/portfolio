@@ -10,20 +10,28 @@ const Services=()=>{
  <article className="service">
  <div className="service_head"> 
 <a ><ion-icon name="desktop-outline"></ion-icon></a>
-<h5>Web Design</h5>
+<h5>Web Development</h5>
 </div>
 <ul><li>Building websites that are responsive</li>
-<li>Design mobile-based features</li>
+{/* <li>Design mobile-based features</li> */}
+<li>Integrating data from various back-end services and databases</li>
+<li>Keep up with new technologies and industry trends, and use them in your work.</li>
 </ul>
 </article>
 <article className="service"> 
 <div className="service_head"> 
-<a ><ion-icon name="logo-android"></ion-icon></a>
+<a ><ion-icon name="analytics-outline"></ion-icon></a>
 <h5>Web Scraping</h5>
 </div>
 <ul>
-    <li>Develop scripts to extract data </li>
-    <li>Implement web scraping solutions </li>
+    <li>Develop scripts to extract data
+
+    </li>
+
+    <li>Implement web scraping solutions
+        
+    </li>
+    <li> Ensure compliance with website policies and legal guidelines regarding data scraping.</li>
 </ul>
 </article>
 <article className="service">
@@ -37,7 +45,11 @@ const Services=()=>{
         <li>Execute SEO strategies
             </li>
             <li>Performing bug fixes
-            </li></ul>
+            </li>
+            <li>
+            Researching and implementing content recommendations for organic SEO success
+            </li>
+            </ul>
 </article>
 </div>
             </section>

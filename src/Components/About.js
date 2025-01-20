@@ -14,7 +14,7 @@ Get To Know
 <div className="line">
 </div>
 </div>
-
+{/* <div className="col-md-1"></div> */}
 <div className="about-info mb-5 col-md-7">
 <p>
 I am self-motivated and innovative Front-end Developer who is willing to go above in this position. Proficient in HTML, CSS, JavaScript, React and Node.js; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Git, SQL, and Adobe XD.
