@@ -13,7 +13,7 @@ const [open, setOpen] = useState(false);
 <div className='portfolio-container container'>
 <article className='portfolio-item'>
 <div className='portfolio-img'>
-<img src='e-commerce.jpeg'/>
+<img src='ecommerce.jpeg'/>
 </div>
 <a className='pt-3'>Modern E-commerce </a>
 <div className='portfolio-links'>
