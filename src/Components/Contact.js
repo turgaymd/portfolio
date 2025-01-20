@@ -56,7 +56,10 @@ const Contact=()=>{
 {/* <input className="form-control" name="subject" placeholder="Subject*" required/> */}
 {/* <label className=" mb-3"></label> */}
 <textarea placeholder="Your Message ..." className="form-control" rows="7"></textarea>
+<div className="text-center">
 <button type="submit" className="submit-btn">Send Message</button>
+</div>
+
 </form>
 </div>
 </div>

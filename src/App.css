@@ -47,7 +47,9 @@ section h2::after{
   transition: .5s;
 
 }
-
+section h2:hover::after{
+  width: 6rem;
+}
 .btn{
   background-color: #005469 !important;
 }
@@ -186,7 +188,7 @@ section h4{
   color: red !important;
 }
 .navbar li:hover{
-  color: burlywood;
+  color: #4db5ff;
 }
 .submit-btn{
   border-radius: 4px;
@@ -194,7 +196,6 @@ section h4{
   padding:14px 38px 14px 42px;
   background:#005469 ;
   border-style: none;
-  margin: 0 auto;
 }
 .submit-btn:hover{
   background:  #040c2c;
@@ -221,7 +222,7 @@ background: #ababab !important;
   display: flex;
 }
 .about_container{
-  background: #1f1f44;
+  /* background: #1f1f44; */
   padding: 20px;
 }
 .about-info{
@@ -264,7 +265,6 @@ background: #ababab !important;
   padding: 1rem;
 }
 .reach-me a{
-  margin:0.4rem;
   text-wrap: nowrap;
   text-align: center;
   font-weight: 600;
