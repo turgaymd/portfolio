@@ -2,9 +2,11 @@
 import {MdEmail} from "react-icons/md"
 import { useRef } from "react"
 import { BsWhatsapp } from "react-icons/bs"
-import {RiMessengerLine} from "react-icons/ri"
+import {RiMessengerLine} from "react-icons/ri";
+import { HiOutlineLocationMarker } from "react-icons/hi";
 import emailjs from '@emailjs/browser';
 import swal from "sweetalert"
+import { GrLocation } from "react-icons/gr";
 const Contact=()=>{
 
     const form=useRef()
@@ -19,7 +21,7 @@ const Contact=()=>{
       });
   };
     return(
-<section id="contact">
+<section id="contact" className="mt-5 pt-5">
 <h2 className="mb-4">Contact Me</h2>
 <h4>Get In Touch</h4>
 
@@ -27,18 +29,19 @@ const Contact=()=>{
 <div className="contact_options">
 <article>
 <MdEmail  className="contact_icon"/>
-    {/* <h5>Email</h5> */}
+    <h5>Email</h5>
     <h6>memmedovturqay871@gmail.com</h6>
     </article>
-    <article>
-<RiMessengerLine className="contact_icon"/>
-    {/* <h5>Messenger</h5> */}
-    <h6>Turqay Memmedov</h6>
-    </article>
+
     <article>
 <BsWhatsapp className="contact_icon" />
-    {/* <h5>WhatsApp</h5> */}
+    <h5>WhatsApp</h5>
     <h6>+994705110677</h6>
+    </article>
+    <article>
+<HiOutlineLocationMarker className="contact_icon text-white"/>
+    <h5>Address</h5>
+    <h6>Rizvan Teymurov 63, Baku</h6>
     </article>
 </div>
 <div>

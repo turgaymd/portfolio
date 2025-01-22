@@ -17,7 +17,7 @@ const [open, setOpen] = useState(false);
 </div>
 <a className='pt-3'>Modern E-commerce </a>
 <div className='portfolio-links'>
-<a href='https://github.com/turqay667/accessories.az' className='btn btn-success' target='_blank'>GitHub</a>
+{/* <a href='https://github.com/turqay667/accessories.az' className='btn btn-success' target='_blank'>GitHub</a> */}
 <a href="https://accessories-az.onrender.com/" target='_blank' className='btn btn-primary'>Live Demo</a>
 </div>
 
@@ -28,7 +28,7 @@ const [open, setOpen] = useState(false);
 </div>
 <a className='pt-3'>Weather Forecast</a>
 <div className='portfolio-links'>
-<a href='https://github.com/turqay667/weather-app' className='btn btn-success'  target='_blank'>GitHub</a>
+{/* <a href='https://github.com/turqay667/weather-app' className='btn btn-success'  target='_blank'>GitHub</a> */}
 <a href="https://lastforecast.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
 </div>
 </article>
@@ -38,7 +38,7 @@ const [open, setOpen] = useState(false);
 </div>
 <a className='pt-3'>Real-Time Chat </a>
 <div className='portfolio-links'>
-<a href='https://github.com/turqay667/chat_app' className='btn btn-success'  target='_blank'>GitHub</a>
+{/* <a href='https://github.com/turqay667/chat_app' className='btn btn-success'  target='_blank'>GitHub</a> */}
 <a href="https://chat-app-bxnf.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
 </div>
 </article>
@@ -48,7 +48,7 @@ const [open, setOpen] = useState(false);
 </div>
 <a className='pt-3'>  TIC TAC TOE </a>
 <div className='portfolio-links'>
-<a href='https://github.com/turqay667/tic-tac-toe' target='_blank' className='btn btn-success'>GitHub</a>
+{/* <a href='https://github.com/turqay667/tic-tac-toe' target='_blank' className='btn btn-success'>GitHub</a> */}
 <a href="https://tic-tac-toe-jm6h.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
 </div>
 </article>
@@ -58,7 +58,7 @@ const [open, setOpen] = useState(false);
 </div>
 <a className='pt-3'>  Note Taking App </a>
 <div className='portfolio-links'>
-<a href='https://github.com/turqay667/note-taking' target='_blank' className='btn btn-success'>GitHub</a>
+{/* <a href='https://github.com/turqay667/note-taking' target='_blank' className='btn btn-success'>GitHub</a> */}
 <a href="https://note-taking-livid.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
 
 </div>
@@ -69,7 +69,7 @@ const [open, setOpen] = useState(false);
 </div>
 <a className='pt-3'>  Advice Generator </a>
 <div className='portfolio-links'>
-<a href='https://github.com/turqay667/advice_generator' target='_blank' className='btn btn-success'>GitHub</a>
+{/* <a href='https://github.com/turqay667/advice_generator' target='_blank' className='btn btn-success'>GitHub</a> */}
 <a href="https://turqay667.github.io/advice_generator/" className='btn btn-primary' target='_blank'>Live Demo</a>
 
 </div>
