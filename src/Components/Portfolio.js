@@ -8,7 +8,7 @@ const [open, setOpen] = useState(false);
 <section className="portfolio pt-5" id="portfolio">
 <div className="portfolio-title text-center">
 <h2>My Portfolio</h2>
-<h4>This is what demonstrates my knowledge</h4> 
+<h4>Projects I've done</h4> 
 </div>
 <div className='portfolio-container container'>
 <article className='portfolio-item'>

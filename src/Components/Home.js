@@ -10,6 +10,9 @@ return (
     <h1>Hi, I'm <span className="text-info">Turgay Mammadov</span> </h1>
         </div>
     <h4 className="text_light">Front-end Developer</h4>
+         <div className="pt-4 pb-4">
+         <a className="submit-btn" href="#contact">Hire me</a> 
+            </div>
     <div className="admin_social">
 
     <a className="text-white" href="https://github.com/turqay667"><FaGithub /></a>
@@ -18,7 +21,7 @@ return (
 
 
     </div>
-    {/* <a className="submit-btn col-md-5" href="#contact">Hire me</a> */}
+
     </div>
    
 </div>

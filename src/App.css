@@ -17,6 +17,7 @@ a{
 }
 .nav-links a{
   color: white;
+  font-weight: 500;
   font-size: 18px;
 }
 .nav-links-mobile a{
@@ -60,7 +61,7 @@ section h2:hover::after{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .admin img{
   position: relative;
@@ -107,6 +108,7 @@ to {width: 100%;}
 section h4{
   padding-bottom: 4rem;
   text-align: center;
+  color: rgba(198, 201, 216, .75);
 }
 
 
@@ -194,7 +196,7 @@ section h4{
   border-radius: 4px;
   color: white;
   padding:14px 38px 14px 42px;
-  box-shadow: 2px 2px 2px 2px #005469;
+  box-shadow: 1px 1px 3px 3px #005469;
   background: none;
   letter-spacing: .1em;
   border-style: none;
@@ -233,7 +235,7 @@ background: #ababab !important;
 }
 .about-info p{
   line-height: 30px;
-  color: #c4cfde;
+  color: rgba(198, 201, 216, .75);
 }
 .about-info h5{
   color: #999;
@@ -492,9 +494,9 @@ cursor: pointer;
 .service_head{
   padding: 0.7rem;
 }
-.service_head h5{
+/* .service_head h5{
   color: rgba(255,255,255,0.6);
-}
+} */
 
 .text_light{
   color:var(--color-light) !important;
@@ -502,12 +504,13 @@ cursor: pointer;
 
 .service ul li{
   gap: 1rem;
+  color: rgba(198, 201, 216, .75);
   margin-bottom: 1rem;
 }
 footer{
   padding: 20px;
   text-align: center;
-  border-top: 1px solid #005469;
+  border-top: 1px solid rgba(198, 201, 216, .75);
 }
 footer img{
   width: 150px;
@@ -536,7 +539,8 @@ margin-bottom: 1.5rem;
   border: 1px solid transparent;
 }
 .footer_social a:hover{
-  background: red;
+  background: #2c2c6c;
+  
 }
 .topbutton{
   background-color: #2c2c6c;

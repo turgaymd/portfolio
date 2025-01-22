@@ -1,6 +1,6 @@
 import {BsInstagram} from "react-icons/bs"
 import {ImFacebook} from "react-icons/im"
-import {FaLinkedinIn} from "react-icons/fa"
+import {FaAngleUp, FaLinkedinIn} from "react-icons/fa"
 import { FaArrowUp } from "react-icons/fa";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -37,7 +37,7 @@ useEffect(()=>{
 </div>
 <div >
 {
-    visible ? <FaArrowUp  fontSize={40} className="topbutton" onClick={scrollTop}/> : <div></div>
+    visible ? <FaAngleUp  fontSize={40} className="topbutton" onClick={scrollTop}/> : <div></div>
 }
 
 </div>
