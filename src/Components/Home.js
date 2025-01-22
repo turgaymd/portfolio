@@ -12,12 +12,13 @@ return (
     <h4 className="text_light">Front-end Developer</h4>
     <div className="admin_social">
 
-<a className="text-white" href="https://www.hackerrank.com/profile/memmedovturqay81"><FaHackerrank /></a>
+    <a className="text-white" href="https://github.com/turqay667"><FaGithub /></a>
 <a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
-<a className="text-white" href="https://github.com/turqay667"><FaGithub /></a>
+<a className="text-white" href="https://www.hackerrank.com/profile/memmedovturqay81"><FaHackerrank /></a>
 
 
     </div>
+    {/* <a className="submit-btn col-md-5" href="#contact">Hire me</a> */}
     </div>
    
 </div>

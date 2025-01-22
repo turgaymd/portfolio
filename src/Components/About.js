@@ -20,8 +20,7 @@ Get To Know
 I am self-motivated and innovative Front-end Developer who is willing to go above in this position. Proficient in HTML, CSS, JavaScript, React and Node.js; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Git, SQL, and Adobe XD.
 </p>
 <div className="reach-me d-flex row gap-3">
-<a className="submit-btn col-md-5" href="#contact">Hire me</a>
-<a className="submit-btn col-md-5" href="CV.pdf" download>Download CV</a>
+<a className="submit-btn col-md-4" href="CV.pdf" download>Download CV</a>
 </div>
 </div>
 </div>

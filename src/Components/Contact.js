@@ -29,19 +29,16 @@ const Contact=()=>{
 <MdEmail  className="contact_icon"/>
     {/* <h5>Email</h5> */}
     <h6>memmedovturqay871@gmail.com</h6>
-    <a href="mailto:turqayeuro2020@gmail.com" target="_blank">  Send a message </a>
     </article>
     <article>
 <RiMessengerLine className="contact_icon"/>
     {/* <h5>Messenger</h5> */}
     <h6>Turqay Memmedov</h6>
-    <a href="https://www.messenger.com/t/100000953835462" target="_blank">  Send a message </a>
     </article>
     <article>
 <BsWhatsapp className="contact_icon" />
     {/* <h5>WhatsApp</h5> */}
     <h6>+994705110677</h6>
-    <a href="https://api.whatsapp.com/send?phone=994705110677" target="_blank">  Send a message </a>
     </article>
 </div>
 <div>
@@ -52,7 +49,7 @@ const Contact=()=>{
 <input className="form-control" name="phone" placeholder="Phone number*" />
 {/* <label className=" mb-3"></label> */}
 <input className="form-control" name="email" placeholder="Email*" required/>
-<label className=" mb-3"></label>
+<label className=""></label>
 {/* <input className="form-control" name="subject" placeholder="Subject*" required/> */}
 {/* <label className=" mb-3"></label> */}
 <textarea placeholder="Your Message ..." className="form-control" rows="7"></textarea>
