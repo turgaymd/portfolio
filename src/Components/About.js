@@ -1,3 +1,6 @@
+
+import {FaGithub, FaHackerrank} from "react-icons/fa"
+import {FaLinkedinIn} from "react-icons/fa"
 const About=()=>{
     return(
         <div>
@@ -13,7 +16,7 @@ Get To Know
 <img src="admin.jpeg"/>
 </div>
 {/* <div className="col-md-1"></div> */}
-<div className="about-info mb-5 col-md-7">
+<div className="about-info col-md-7">
     <h3>Front-end developer</h3>
 <p className="">
 Experienced front-end developer with a track record of delivering high quality web applications. Demonstrated the ability to create user-friendly interfaces and improve website performance. Ready to contribute to impact projects in the industry.
@@ -24,6 +27,14 @@ Experienced front-end developer with a track record of delivering high quality w
 </p>
 <div className="reach-me d-flex row gap-3">
 <a className="submit-btn col-md-4" href="CV.pdf" download>Download CV</a>
+<div className="admin_social">
+
+<a className="text-white" href="https://github.com/turqay667"><FaGithub /></a>
+<a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
+<a className="text-white" href="https://www.hackerrank.com/profile/memmedovturqay81"><FaHackerrank /></a>
+
+
+</div>
 </div>
 </div>
 </div>

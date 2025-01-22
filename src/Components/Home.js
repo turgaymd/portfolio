@@ -1,6 +1,4 @@
 
-import {FaGithub, FaHackerrank} from "react-icons/fa"
-import {FaLinkedinIn} from "react-icons/fa"
 
 const Home=()=>{
 return (
@@ -9,18 +7,11 @@ return (
             <div className="typewriter">
     <h1>Hi, I'm <span className="text-info">Turgay Mammadov</span> </h1>
         </div>
-    <h4 className="text_light">Front-end Developer</h4>
+    <h4 className="text_light pb-2">Front-end Developer</h4>
          <div className="pt-4 pb-4">
          <a className="submit-btn" href="#contact">Hire me</a> 
             </div>
-    <div className="admin_social">
-
-    <a className="text-white" href="https://github.com/turqay667"><FaGithub /></a>
-<a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
-<a className="text-white" href="https://www.hackerrank.com/profile/memmedovturqay81"><FaHackerrank /></a>
-
-
-    </div>
+   
 
     </div>
    

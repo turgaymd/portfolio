@@ -75,7 +75,6 @@ box-shadow: 0 0 5px 5px #2c2c6c;
 }
 .admin_social{
   display: flex;
-  justify-content: center;
   gap:1rem;
   padding-top: 1rem;
 }
@@ -223,10 +222,6 @@ background: #ababab !important;
 }
 .address{
   display: flex;
-}
-.about_container{
-  /* background: #1f1f44; */
-  padding: 20px;
 }
 .about-info{
   display: flex;
@@ -377,9 +372,10 @@ text-align: center;
   font-size: 29px;
   padding: 15px;
   display: inline-block;
+  margin-bottom: 1rem;
 }
-.md:hover{
-  background-color: #005469;
+.md{
+  background-color: #4db5ff;
 }
 .logo >div{
   color: initial;
@@ -508,6 +504,7 @@ cursor: pointer;
   margin-bottom: 1rem;
 }
 footer{
+  margin-top: 3rem;
   padding: 20px;
   text-align: center;
   border-top: 1px solid rgba(198, 201, 216, .75);
@@ -534,13 +531,20 @@ margin-bottom: 1.5rem;
 .footer_social a{
   border: 2px solid rgba(255, 255, 255, .3) !important;
   padding: 0.8rem;
-  border-radius: 0.7rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid transparent;
 }
 .footer_social a:hover{
   background: #2c2c6c;
   
+}
+footer p{
+  color:rgba(198, 201, 216, .75)
 }
 .topbutton{
   background-color: #2c2c6c;
