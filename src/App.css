@@ -50,9 +50,9 @@ section h2::after{
 section h2:hover::after{
   width: 6rem;
 }
-.btn{
-  background-color: #005469 !important;
-}
+/* .btn{
+  background:none;
+} */
 
 .admin{
   padding-bottom: 1rem;
@@ -194,7 +194,9 @@ section h4{
   border-radius: 4px;
   color: white;
   padding:14px 38px 14px 42px;
-  background:#005469 ;
+  box-shadow: 2px 2px 2px 2px #005469;
+  background: none;
+  letter-spacing: .1em;
   border-style: none;
 }
 .submit-btn:hover{
@@ -298,16 +300,15 @@ color: white !important;
   gap:2.5rem;
 }
 .portfolio-item{
-  background: var(--color-bg-variant);
   padding: 1.3rem;
-  border-radius: 2.5rem;
+  border-radius: 1.5rem;
   border: 1px solid transparent;
-  transition: 2s;
-}
-.portfolio-item:hover{
   background: transparent;
+  transition: 2s;
   border-color: var(--color-primary-variant);
 }
+/* .portfolio-item:hover{
+} */
 .portfolio-item img{
   width: 100%;
   overflow: hidden;
@@ -324,9 +325,12 @@ text-align: center;
 }
 .portfolio-links{
   display: flex;
-  justify-content: center;
-  gap:1rem;
-  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.portfolio-links h6{
+  margin-bottom: inherit;
+  font-weight: bold;
 }
 .portfolio-menu li{
   border-radius: 2px;
@@ -337,7 +341,6 @@ text-align: center;
   background-color:transparent;
 }
 .portfolio-menu li:hover{
-
   color: white;
 
 }
@@ -351,11 +354,13 @@ text-decoration: none;
   
 }
 .portfolio-img{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-bottom: 1rem;
 }
 .portfolio-links a{
-  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border: none;
+   box-shadow: 0 0 5px 5px #4db5ff66; 
 }
 .df{
 text-align: center;
