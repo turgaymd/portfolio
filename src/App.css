@@ -105,7 +105,7 @@ to {width: 100%;}
   width: 8rem;
 } */
 section h4{
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   text-align: center;
   color: rgba(198, 201, 216, .75);
 }
@@ -241,6 +241,7 @@ background: #ababab !important;
 .about_me-img{
   display: flex;
   justify-content: space-around;
+  padding: 2.5rem;
 }
 .about_me img{
   width: 100%;
@@ -576,13 +577,5 @@ footer p{
     grid-template-columns: 1fr;
     gap:1.5rem;
   }
-  .about_container{
-    grid-template-columns: 1fr;
-    gap:0;
-  }
-  .about_me{
-    margin:2rem  auto 4rem;
-  }
-  
 }
 
