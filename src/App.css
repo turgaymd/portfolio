@@ -312,6 +312,9 @@ color: white !important;
   overflow: hidden;
 
 }
+.portfolio-img{
+  position: relative;
+}
 .portfolio-item{
 text-align: center;
 }
@@ -321,14 +324,21 @@ text-align: center;
 .portfolio-item a{
   font-weight: bold;
 }
+.portfolio-img:hover .portfolio-links{
+visibility: visible;
+}
+
 .portfolio-links{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
+  gap: 1rem;
 }
-.portfolio-links h6{
-  margin-bottom: inherit;
+.portfolio-item h6{
+  margin-bottom: 1.4rem;
   font-weight: bold;
+
 }
 .portfolio-menu li{
   border-radius: 2px;
@@ -358,6 +368,7 @@ text-decoration: none;
 .portfolio-links a{
   padding: 10px 20px 10px 20px;
   border: none;
+  width: 100%;
    box-shadow: 0 0 5px 5px #4db5ff66; 
 }
 .df{
