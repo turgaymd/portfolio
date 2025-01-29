@@ -29,11 +29,11 @@ Experienced front-end developer with a track record of delivering high quality w
 </p>
 <div className="reach-me d-flex row gap-3">
 <a className="submit-btn col-md-4" href="CV.pdf" download><FiDownload fontSize={28}/>Download CV</a>
-<div className="admin_social">
+{/* <div className="admin_social col-md-8">
 <a className="text-white" href="https://github.com/turqay667"><FaGithub /></a>
 <a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
 <a className="text-white" href="https://www.hackerrank.com/profile/memmedovturqay81"><FaHackerrank /></a>
-</div>
+</div> */}
 </div>
 </div>
 </div>

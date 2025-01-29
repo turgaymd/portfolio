@@ -1,6 +1,6 @@
 import {BsInstagram} from "react-icons/bs"
 import {ImFacebook} from "react-icons/im"
-import {FaAngleUp, FaLinkedinIn} from "react-icons/fa"
+import {FaAngleUp, FaGithub, FaLinkedinIn} from "react-icons/fa"
 import { FaArrowUp } from "react-icons/fa";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -28,7 +28,7 @@ useEffect(()=>{
     <a href="#" className="footer_logo">Turgay</a>
 <div>
     <div className="footer_social">
-<a className="text-white" href="https://www.facebook.com/turqay.memmedov.9480"><ImFacebook/></a>
+<a className="text-white" href="https://github.com/turqay667"><FaGithub/></a>
 <a className="text-white" href="https://www.instagram.com/turqay.mdv/"><BsInstagram/></a>
 <a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
 

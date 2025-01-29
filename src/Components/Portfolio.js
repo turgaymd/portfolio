@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import { GoLink } from "react-icons/go";
+import { FaGithub } from 'react-icons/fa';
 import { Nav,Tab,TabContainer} from 'react-bootstrap';
 const Portfolio=()=>{
 const [open, setOpen] = useState(false);
@@ -80,16 +81,20 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
     {
        filteringProjects.map(item=>{
             return (
-                <div className='col-md-4'>
-       
+                <div className='col-md-4' >
 <article className='portfolio-item mb-4'>
             <div className='portfolio-img'>
 <img src={item.img}/>
 </div>
-<h6>{item.title} </h6>
+
 <div className='portfolio-links'>
- <a href={item.github} className='btn btn-success' target='_blank'>GitHub</a> 
-<a href={item.live} target='_blank' className='btn'>Live</a>
+<h6>{item.title} </h6>
+<div className='d-flex gap-2'> 
+<a href={item.live} target='_blank' className='btn btn-primary'><GoLink/></a>
+<a href={item.github}  target='_blank' className='btn btn-success'><FaGithub /></a> 
+</div>
+
+
 </div>
             </article>
             </div>

@@ -1,5 +1,6 @@
 import {AiOutlineMobile} from "react-icons/ai";
 import {GrOptimize} from "react-icons/gr"
+import { IoMdCode } from "react-icons/io";
 const Services=()=>{
     return(
         <div>
@@ -9,7 +10,7 @@ const Services=()=>{
 <div className="container services_container">
  <article className="service">
  <div className="service_head"> 
-<a ><ion-icon name="desktop-outline"></ion-icon></a>
+<a ><ion-icon name="code-outline"></ion-icon></a>
 <h5>Web Development</h5>
 </div>
 <ul><li>Building websites that are responsive</li>
@@ -20,7 +21,7 @@ const Services=()=>{
 </article>
 <article className="service"> 
 <div className="service_head"> 
-<a ><ion-icon name="analytics-outline"></ion-icon></a>
+<a ><ion-icon name="file-tray-full-outline"></ion-icon></a>
 <h5>Web Scraping</h5>
 </div>
 <ul>
