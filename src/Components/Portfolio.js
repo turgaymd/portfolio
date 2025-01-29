@@ -64,6 +64,7 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
 </div>
 <div className='container' >
 <ul className='nav nav-tabs' role='tabList'>
+    <div className='d-flex '>
     <li className='nav-item' role='presentation'>
         <a className='nav-link active' id="all" data-bs-toggle="all" data-bs-target="all" aria-selected="true"  onClick={()=>setFiltered('all')}>All</a>
     </li>
@@ -76,8 +77,10 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
     <li className='nav-item' role='presentation'>
         <a className='nav-link ' id="fullstack" data-bs-toggle="fullstack" data-bs-target="fullstack" aria-selected="false" onClick={()=>setFiltered('fullstack')}>Full Stack</a>
     </li>
+    </div>
+  
 </ul>
-<div className='row' id="projects">
+<div className='row pt-3' id="projects">
     {
        filteringProjects.map(item=>{
             return (
@@ -89,7 +92,7 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
 
 <div className='portfolio-links'>
 <h6>{item.title} </h6>
-<div className='d-flex gap-2'> 
+<div className='d-flex gap-1'> 
 <a href={item.live} target='_blank' className='btn btn-primary'><GoLink/></a>
 <a href={item.github}  target='_blank' className='btn btn-success'><FaGithub /></a> 
 </div>

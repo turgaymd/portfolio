@@ -4,7 +4,7 @@ import { IoMdCode } from "react-icons/io";
 const Services=()=>{
     return(
         <div>
-            <section id="services" className="text-center">
+            <section id="services">
 <h2>Services</h2>
 <h4 className="text-center">What I'm Doing</h4>
 <div className="container services_container">
@@ -14,9 +14,8 @@ const Services=()=>{
 <h5>Web Development</h5>
 </div>
 <ul><li>Building websites that are responsive</li>
-{/* <li>Design mobile-based features</li> */}
 <li>Integrating data from various back-end services and databases</li>
-<li>Keep up with new technologies and industry trends, and use them in your work.</li>
+
 </ul>
 </article>
 <article className="service"> 
@@ -26,13 +25,9 @@ const Services=()=>{
 </div>
 <ul>
     <li>Develop scripts to extract data
-
     </li>
-
-    <li>Implement web scraping solutions
-        
+    <li>Implement web scraping solutions       
     </li>
-    <li> Ensure compliance with website policies and legal guidelines regarding data scraping.</li>
 </ul>
 </article>
 <article className="service">
@@ -46,9 +41,6 @@ const Services=()=>{
         <li>Execute SEO strategies
             </li>
             <li>Performing bug fixes
-            </li>
-            <li>
-            Researching and implementing content recommendations for organic SEO success
             </li>
             </ul>
 </article>
