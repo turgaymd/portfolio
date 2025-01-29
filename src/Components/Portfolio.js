@@ -4,89 +4,101 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Nav,Tab,TabContainer} from 'react-bootstrap';
 const Portfolio=()=>{
 const [open, setOpen] = useState(false);
+const [filtered, setFiltered]=useState('all')
+
+const projects=[
+
+    {
+        id:"fullstack",
+        title:'E-commerce',
+        img:'ecommerce.jpeg',
+        live:'https://accessories-az.onrender.com/',
+        github:'https://github.com/turqay667/accessories.az'
+    },
+    {
+        id:"react",
+        title:'Weather Forecast',
+        img:'forecast.jpeg',
+        live:'https://lastforecast.netlify.app/',
+        github:'https://github.com/turqay667/weather-app'
+    },
+    {
+        id:"fullstack",
+        title:'Chat Application',
+        img:'chat_app.jpeg',
+        live:'https://chat-app-bxnf.vercel.app/',
+        github:'https://github.com/turqay667/chat_app'
+    },
+    {
+        id:"react",
+        title:'Note Taking',
+        img:'note_app.jpeg',
+        live:'https://note-taking-livid.vercel.app/',
+        github:'https://github.com/turqay667/note-taking'
+
+    },
+    {
+        id:"Js",
+        title:'Tic Tac Toe',
+        img:'tictac.jpeg',
+        live:'https://tic-tac-toe-jm6h.onrender.com/',
+        github:'https://github.com/turqay667/tic-tac-toe'
+    },
+    {
+        id:"Js",
+        title:'Advice Generator',
+        img:'advice.jpeg',
+        live:'https://turqay667.github.io/advice_generator/',
+        github:'https://github.com/turqay667/accessories.az'
+    },
+]
+
+const filteringProjects = filtered==='all' ? projects : projects.filter(item=>item.id===filtered) 
+
     return(
-<section className="portfolio pt-5" id="portfolio">
+<section className="portfolio" id="portfolio">
 <div className="portfolio-title text-center">
 <h2>My Portfolio</h2>
 <h4>Projects I've done</h4> 
 </div>
-<div className='portfolio-container container'>
-<article className='portfolio-item'>
-<div className='portfolio-img'>
-<img src='ecommerce.jpeg'/>
+<div className='container' >
+<ul className='nav nav-tabs' role='tabList'>
+    <li className='nav-item' role='presentation'>
+        <a className='nav-link active' id="all" data-bs-toggle="all" data-bs-target="all" aria-selected="true"  onClick={()=>setFiltered('all')}>All</a>
+    </li>
+    <li className='nav-item' role='presentation'>
+        <a className='nav-link ' id="Js" data-bs-toggle="Js" data-bs-target="Js" aria-selected="false" onClick={()=>setFiltered('Js')}>Vanilla JS</a>
+    </li>
+    <li className='nav-item' role='presentation'>
+        <a className='nav-link ' id="react" data-bs-toggle="react" data-bs-target="react" aria-selected="false" onClick={()=>setFiltered('react')}>React</a>
+    </li>
+    <li className='nav-item' role='presentation'>
+        <a className='nav-link ' id="fullstack" data-bs-toggle="fullstack" data-bs-target="fullstack" aria-selected="false" onClick={()=>setFiltered('fullstack')}>Full Stack</a>
+    </li>
+</ul>
+<div className='row' id="projects">
+    {
+       filteringProjects.map(item=>{
+            return (
+                <div className='col-md-4'>
+       
+<article className='portfolio-item mb-4'>
+            <div className='portfolio-img'>
+<img src={item.img}/>
 </div>
-<h6>Modern E-commerce </h6>
+<h6>{item.title} </h6>
 <div className='portfolio-links'>
-
- <a href='https://github.com/turqay667/accessories.az' className='btn btn-success' target='_blank'>GitHub</a> 
-<a href="https://accessories-az.onrender.com/" target='_blank' className='btn'>Live</a>
+ <a href={item.github} className='btn btn-success' target='_blank'>GitHub</a> 
+<a href={item.live} target='_blank' className='btn'>Live</a>
 </div>
-
-</article>
-<article className='portfolio-item'>
-<div className='portfolio-img'>
-<img src='forecast.jpeg'/>
+            </article>
+            </div>
+            )
+            
+        })
+    }
 </div>
-<h6>Weather Forecast</h6>
-<div className='portfolio-links'>
-
-<a href='https://github.com/turqay667/weather-app' className='btn btn-success'  target='_blank'>GitHub</a>
-<a href="https://lastforecast.netlify.app/" className='btn' target='_blank'>Live</a>
 </div>
-
-</article>
-<article className='portfolio-item'>
-<div className='portfolio-img'>
-<img src='chat_app.jpeg'/>
-
-</div>
-<h6>Real-Time Chat </h6>
-<div className='portfolio-links'>
-
- <a href='https://github.com/turqay667/chat_app' className='btn btn-success'  target='_blank'>GitHub</a> 
-<a href="https://chat-app-bxnf.vercel.app/" className='btn' target='_blank'>Live</a>
-</div>
-
-</article>
-<article className='portfolio-item'>
-<div className='portfolio-img'>
-<img src='tictac.jpeg'/>
-</div>
-<h6>  TIC TAC TOE </h6>
-<div className='portfolio-links'>
-
-<a href='https://github.com/turqay667/tic-tac-toe' target='_blank' className='btn btn-success'>GitHub</a> 
-<a href="https://tic-tac-toe-jm6h.onrender.com/" className='btn' target='_blank'>Live</a>
-</div>
-</article>
-<article className='portfolio-item'>
-<div className='portfolio-img'>
-<img src='note_app.jpeg'/>
-</div>
-<h6>  Note Taking App </h6>
-<div className='portfolio-links'>
-
- <a href='https://github.com/turqay667/note-taking' target='_blank' className='btn btn-success'>GitHub</a> 
-<a href="https://note-taking-livid.vercel.app/" className='btn' target='_blank'>Live</a>
-</div>
-</article>
-<article className='portfolio-item'>
-<div className='portfolio-img'>
-<img src='advice.jpeg'/>
-</div>
-<h6>  Advice Generator </h6>
-<div className='portfolio-links'>
-
- <a href='https://github.com/turqay667/advice_generator' target='_blank' className='btn btn-success'>GitHub</a> 
-<a href="https://turqay667.github.io/advice_generator/" className='btn ' target='_blank'>Live</a>
-</div>
-
-
-</article>
-</div>
-
-
-
 </section>
     )
 }

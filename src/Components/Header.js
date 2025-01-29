@@ -8,7 +8,7 @@ const [active,setActive]=useState(false)
 
 return(
     <>
-    <div className="container">
+<div className="container nav-container">
 
     <nav className="navbar pb-5">
  <div className="logo">
@@ -35,8 +35,9 @@ return(
 
 
     </nav>
-      
-    </div>
+        
+</div>
+
      <Home/>
      </>
 )

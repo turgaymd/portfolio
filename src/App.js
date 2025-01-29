@@ -8,6 +8,7 @@ import Services from './Components/Services';
 import Portfolio from './Components/Portfolio';
 import Footer from './Components/Footer';
 import { useEffect, useState } from 'react';
+import Skills from './Components/Skill';
 function App() {
   const [darkMode,setDarkMode]=useState(false)
   useEffect(()=>{
@@ -24,6 +25,7 @@ function App() {
        <About/>
        <Services/>
        <Portfolio/>
+       {/* <Skills/> */}
        <Contact/>
        <Footer/>
     </div>
