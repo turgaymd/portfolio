@@ -97,15 +97,16 @@ box-shadow: 0 0 5px 5px #2c2c6c;
 }
 
 .typewriter h2{
-  overflow: hidden;
-  white-space: nowrap;
+
+  text-align: center;
   padding-bottom: 1rem;
+  line-height: 3rem;
   animation: typing 3.5s steps(40, end);
 }
-@keyframes typing{
+/* @keyframes typing{
 from{ width: 0%; }
 to {width: 100%;}
-}
+} */
 
 section h4{
   padding-bottom: 1rem;
