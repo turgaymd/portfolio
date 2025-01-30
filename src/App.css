@@ -97,16 +97,17 @@ box-shadow: 0 0 5px 5px #2c2c6c;
 }
 
 .typewriter h2{
-
+  overflow: hidden;
+ white-space: nowrap;
   text-align: center;
   padding-bottom: 1rem;
   line-height: 3rem;
   animation: typing 3.5s steps(40, end);
 }
-/* @keyframes typing{
+@keyframes typing{
 from{ width: 0%; }
 to {width: 100%;}
-} */
+}
 
 section h4{
   padding-bottom: 1rem;
@@ -373,10 +374,10 @@ transition: 1s;
   align-items: center;
   justify-content: center;
   left: 50%;
-  font-size:2rem ;
-  width: 65px;
-  height: 65px;
-  line-height: 65px;
+  font-size:28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   background: #2c2c6c !important;
   /* box-shadow: 0px 0px 0px 1px #00bfe7; */
   border-radius: 50%;
