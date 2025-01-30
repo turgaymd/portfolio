@@ -66,16 +66,16 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
 <ul className='nav nav-tabs' role='tabList'>
     <div className='d-flex '>
     <li className='nav-item' role='presentation'>
-        <a className='nav-link active' id="all" data-bs-toggle="all" data-bs-target="all" aria-selected="true"  onClick={()=>setFiltered('all')}>All</a>
+        <a className='nav-link active show' id="all"  aria-selected="true"  onClick={()=>setFiltered('all')}>All</a>
     </li>
     <li className='nav-item' role='presentation'>
-        <a className='nav-link ' id="Js" data-bs-toggle="Js" data-bs-target="Js" aria-selected="false" onClick={()=>setFiltered('Js')}>Vanilla JS</a>
+        <a className='nav-link ' id="Js"  aria-selected="false" onClick={()=>setFiltered('Js')}>Vanilla JS</a>
     </li>
     <li className='nav-item' role='presentation'>
-        <a className='nav-link ' id="react" data-bs-toggle="react" data-bs-target="react" aria-selected="false" onClick={()=>setFiltered('react')}>React</a>
+        <a className='nav-link ' id="react"  aria-selected="false" onClick={()=>setFiltered('react')}>React</a>
     </li>
     <li className='nav-item' role='presentation'>
-        <a className='nav-link ' id="fullstack" data-bs-toggle="fullstack" data-bs-target="fullstack" aria-selected="false" onClick={()=>setFiltered('fullstack')}>Full Stack</a>
+        <a className='nav-link ' id="fullstack"  aria-selected="false" onClick={()=>setFiltered('fullstack')}>Full Stack</a>
     </li>
     </div>
   
@@ -86,19 +86,14 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
             return (
                 <div className='col-md-4' >
 <article className='portfolio-item mb-4'>
-            <div className='portfolio-img'>
+            <div className='portfolio-img pb-4'>
 <img src={item.img}/>
-</div>
-
-<div className='portfolio-links'>
-<h6>{item.title} </h6>
-<div className='d-flex gap-1'> 
-<a href={item.live} target='_blank' className='btn btn-primary'><GoLink/></a>
-<a href={item.github}  target='_blank' className='btn btn-success'><FaGithub /></a> 
+<h6 className='pt-3 pb-3'>{item.title} </h6> 
+<a href={item.live} target='_blank' className='btn'><GoLink/></a>
+{/* <a href={item.github}  target='_blank' className='btn'><FaGithub /></a>  */}
 </div>
 
 
-</div>
             </article>
             </div>
             )
