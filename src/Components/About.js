@@ -21,23 +21,24 @@ Get To Know
     <h3>Front-end developer</h3>
 <p className="">
 Experienced front-end developer with a track record of delivering high quality web applications. I have demonstrated the ability to create user-friendly interfaces and optimize website performance.
- Ready to contribute to impact projects in the industry.
-
-
- Proficient in HTML, CSS, JavaScript, React and Node.js; plus modern libraries and frameworks.
+Ready to contribute to impact projects in the industry.
+Proficient in HTML, CSS, JavaScript, React and Node.js; plus modern libraries and frameworks.
  {/* Passionate about usability and possess working knowledge of Git, SQL, and Adobe XD. */}
 </p>
-<div className="reach-me d-flex gap-3  col-md-4 col-12">
-<a className="submit-btn d-flex gap-2" href="CV.pdf" download><FiDownload fontSize={28}/>Download CV</a>
-{/* <div className="admin_social col-md-8">
-<a className="text-white" href="https://github.com/turqay667"><FaGithub /></a>
-<a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
-<a className="text-white" href="https://www.hackerrank.com/profile/memmedovturqay81"><FaHackerrank /></a>
-</div> */}
-</div>
-</div>
-</div>
+<div className="row">
+<div className="reach-me col-md-4 col-12">
+<a className="submit-btn " href="CV.pdf" download>  Download CV </a>
 
+   
+
+
+</div>
+<div className="reach-me col-md-4 ">
+         <a className="submit-btn" href="#contact"> Hire me</a> 
+            </div>
+</div>
+</div>
+</div>
          
             </div>
             </section> 

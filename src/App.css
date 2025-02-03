@@ -48,27 +48,36 @@ section h2::after{
   margin: 0 auto;
   top: 2.4rem;
   background: #00bfe7;
-  transition: .5s;
 
 }
 section h2:hover::after{
-  width: 6rem;
+  width: 5rem;
+  transition: .6s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 section h4{
   padding-bottom: 1rem;
   text-align: center;
-  color: #95D6EA ;
+  color: lightblue;
 
 }
 .skill{
   cursor: pointer;
 }
+
 .skill  img{
   width: 120px;
   height: 120px;
+  background:beige ;
+  border-radius: 10px;
 }
-
-
+.skill img:hover{
+  box-shadow: 2px 2px 4px 2px whitesmoke;
+}
+.skill h6{
+padding-top: 1rem;
+color: lightcyan;
+}
 
 .nav-links{
   justify-content: end;
@@ -205,10 +214,12 @@ box-shadow: 0 0 5px 5px #2c2c6c;
   overflow: hidden;
  white-space: nowrap;
   text-align: center;
-  padding-bottom: 1rem;
   line-height: 3rem;
   font-size: 1.5rem;
   animation: typing 3.5s steps(40, end);
+}
+.admin h4{
+  color: #4db5ff;
 }
 @keyframes typing{
 from{ width: 0%; }
@@ -217,12 +228,14 @@ to {width: 100%;}
 
 .submit-btn{
 
-  border: 2px solid #95D6EA;
+  border: 2px solid rgba(77, 181, 255, 0.4);
   border-radius: 4px;
   color: white;
   padding:14px 38px 14px 38px;
   background: none;
-  letter-spacing: .1em;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 .submit-btn:hover{
   color:#fff;
@@ -261,7 +274,8 @@ color:white !important;
 }
 .about-info p{
   line-height: 30px;
-  color: rgba(198, 201, 216, .75);
+  color: lightcyan;
+  opacity: 0.8;
 }
 .about-info h5{
   color: #999;
@@ -280,8 +294,10 @@ color:white !important;
   padding: 4px;
   background: radial-gradient(black, transparent);
   /* border-radius: 50%; */
-  box-shadow: 2px 2px 2px 2px black;
-
+  border: 1px solid rgb(42 20 84 );
+}
+.about_me img:hover{
+  transform: rotate(2deg);
 }
 .line{
 
@@ -440,19 +456,17 @@ text-decoration: none;
 
 .md{
 
-  border-radius: 15px;
   color:white;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  font-size: 29px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 32px;
   padding: 15px;
   display: inline-block;
   margin-bottom: 1rem;
+  color:#95D6EA;
 }
-.md{
-  background-color: #0E283C;
-}
+
 
 
 .contact_container{
@@ -475,7 +489,7 @@ padding-top: 1rem;
 
 }
 #contact article{
-  box-shadow: 0 0 5px 5px #4db5ff66;
+  box-shadow: 0 0 5px 5px hsl(218, 30%, 20%);
 }
 #contact h6{
   font-weight: bold;
@@ -487,16 +501,10 @@ padding-top: 1rem;
 .contact_options article{
   padding: 20px;
   padding-bottom: 2rem;
-  border-radius: 1.2rem;
+  border-radius: .75rem;
   text-align: center;
 }
-.contact_options article a{
-  display: inline-block;
-  margin-top: 0.5rem;
-  background: #4db5ff66;
-  padding: 10px;
-  border-radius: 10px;
-}
+
 .contact_icon{
   font-size:2rem;
   margin-bottom: 1rem;
@@ -513,7 +521,7 @@ gap:1.2rem;
   padding: 1.5rem;
   background: transparent;
   color: white !important;
-  border: 1px solid var(--color-primary-variant);
+  border: 2px solid hsl(218, 30%, 20%) !important;
 }
 
 input::placeholder , textarea::placeholder{
@@ -545,13 +553,13 @@ input::placeholder , textarea::placeholder{
   gap:3rem;
 }
 .service{
-border-radius: 6px;
-border: 1px solid var(--color-primary);
+border-radius: 12px;
+border: 2px solid rgba(129, 76, 236, 0.15);
 padding: 1rem;
 cursor: pointer;
 }
 .service:hover{
-  box-shadow: 5px 10px 10px 5px #005469;
+  box-shadow: 5px 10px 10px 5px rgba(129, 76, 236, 0.15);
 }
 .service ul{
   text-align: left;
@@ -601,25 +609,25 @@ display: block;
 margin-bottom: 1.5rem;
 }
 
-.footer_social{
+.social{
   display: flex;
   justify-content: center;
   gap:1rem;
   margin-bottom: 2rem;
 }
-.footer_social a{
+.social a{
   padding: 0.4rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: hsl(218, 30%, 20%) ;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   border: 1px solid transparent;
 }
-.footer_social a:hover{
+.social a:hover{
   background: #4db5ff;
   transition: 2s;
   

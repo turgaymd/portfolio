@@ -10,7 +10,7 @@ const Services=()=>{
 <div className="container services_container">
  <article className="service">
  <div className="service_head"> 
-<a ><ion-icon name="code-outline"></ion-icon></a>
+<a className="text-info"><ion-icon name="code-outline"></ion-icon></a>
 <h5>Web Development</h5>
 </div>
 <ul><li>Building websites that are responsive</li>
