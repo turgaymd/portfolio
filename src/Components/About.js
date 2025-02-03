@@ -1,6 +1,4 @@
 
-import {FaGithub, FaHackerrank} from "react-icons/fa"
-import {FaLinkedinIn} from "react-icons/fa"
 import { FiDownload } from "react-icons/fi";
 const About=()=>{
     return(
@@ -14,7 +12,7 @@ Get To Know
             <div className="container about_container">      
             <div className="about_me row"> 
 <div className="about_me-img col-md-5">
-<img src="admin.jpeg"/>
+<img src="admin.jpeg" alt="admin"/>
 </div>
 {/* <div className="col-md-1"></div> */}
 <div className="about-info col-md-7">
@@ -23,7 +21,7 @@ Get To Know
 Experienced front-end developer with a track record of delivering high quality web applications. I have demonstrated the ability to create user-friendly interfaces and optimize website performance.
 Ready to contribute to impact projects in the industry.
 Proficient in HTML, CSS, JavaScript, React and Node.js; plus modern libraries and frameworks.
- {/* Passionate about usability and possess working knowledge of Git, SQL, and Adobe XD. */}
+Passionate about usability and possess working knowledge of Git, SQL, and Adobe XD. 
 </p>
 <div className="row">
 <div className="reach-me col-md-4 col-12">

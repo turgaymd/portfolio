@@ -87,7 +87,7 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
                 <div className='col-md-4' >
 <article className='portfolio-item mb-4'>
             <div className='portfolio-img pb-4'>
-<img src={item.img}/>
+<img src={item.img} alt='project'/>
 <h6 className='pt-3 pb-3'>{item.title} </h6> 
 <a href={item.live} target='_blank' className='btn'><GoLink/></a>
 {/* <a href={item.github}  target='_blank' className='btn'><FaGithub /></a>  */}
