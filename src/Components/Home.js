@@ -9,7 +9,7 @@ return (
         </div>
 
          <div className="pt-4 pb-4">
-         <a className="submit-btn" href="#contact">Hire me</a> 
+         <a className="submit-btn" href="#contact"> Hire me</a> 
             </div>
    
 
