@@ -32,7 +32,7 @@ useEffect(()=>{
 <a className="text-white" href="https://www.instagram.com/turqay.mdv/" target="_blank"><FaInstagram/></a>
 <a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/" target="_blank"><FaLinkedinIn/></a>
     </div>
-<p className="footer_copyright">   © {currentDate} Portfolio - All Rights Reserved</p>
+<p className="footer_copyright mt-4">   © {currentDate} Portfolio - All Rights Reserved</p>
 </div>
 <div >
 {
