@@ -238,7 +238,6 @@ to {width: 100%;}
 .about_me-img{
   display: flex;
   justify-content: space-around;
-  padding: 2.5rem;
 }
 .about_me img{
   width: 100%;
