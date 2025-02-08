@@ -74,7 +74,7 @@ section h4{
   display: flex;
 }
 .navbar ul li{
-  padding:15px;
+  padding:10px;
 }
 .navbar .logo{
   margin-left: 2rem;
@@ -423,7 +423,6 @@ text-decoration: none;
 }
 
 .md{
-
   color:white;
   width: 50px;
   height: 50px;
@@ -431,7 +430,6 @@ text-decoration: none;
   font-size: 32px;
   padding: 15px;
   display: inline-block;
-  margin-bottom: 1rem;
   color:#95D6EA;
 }
 
@@ -573,7 +571,6 @@ cursor: pointer;
 
 .service ul li{
   gap: 1rem;
-  color: rgba(198, 201, 216, .75);
   margin-bottom: 1rem;
 }
 footer{
@@ -619,7 +616,7 @@ margin-bottom: 1.5rem;
   
 }
 footer p{
-  color:rgba(198, 201, 216, .75)
+  color:#fffafa;
 }
 .topbutton{
   background-color: hsl(218, 30%, 20%);

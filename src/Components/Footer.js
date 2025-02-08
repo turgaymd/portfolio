@@ -28,9 +28,9 @@ useEffect(()=>{
     <a href="#" className="footer_logo">Turgay</a>
 <div>
     <div className="social">
- <a className="text-white" href="https://www.facebook.com/turqay.memmedov.9480" target="_blank"><ImFacebook/></a>
-<a className="text-white" href="https://www.instagram.com/turqay.mdv/" target="_blank"><FaInstagram/></a>
-<a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/" target="_blank"><FaLinkedinIn/></a>
+ <a className="text-white" href="https://www.facebook.com/turqay.memmedov.9480" target="_blank" rel="noreferrer"><ImFacebook/></a>
+<a className="text-white" href="https://www.instagram.com/turqay.mdv/" target="_blank" rel="noreferrer"><FaInstagram/></a>
+<a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/" target="_blank" rel="noreferrer"><FaLinkedinIn/></a>
     </div>
 <p className="footer_copyright mt-4">   © {currentDate} Portfolio - All Rights Reserved</p>
 </div>

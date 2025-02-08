@@ -4,7 +4,6 @@ import { GoLink } from "react-icons/go";
 import { FaGithub } from 'react-icons/fa';
 import { Nav,Tab,TabContainer} from 'react-bootstrap';
 const Portfolio=()=>{
-const [open, setOpen] = useState(false);
 const [filtered, setFiltered]=useState('all')
 
 const projects=[
