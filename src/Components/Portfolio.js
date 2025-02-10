@@ -7,7 +7,13 @@ const Portfolio=()=>{
 const [filtered, setFiltered]=useState('all')
 
 const projects=[
+    {
+        id:"Js",
+        title:'Buta Grup',
+        img:'butagrup.jpeg',
+        live:'https://www.butagrup.com.tr/',
 
+    },
     {
         id:"fullstack",
         title:'E-commerce',
@@ -44,13 +50,13 @@ const projects=[
         live:'https://tic-tac-toe-jm6h.onrender.com/',
         github:'https://github.com/turqay667/tic-tac-toe'
     },
-    {
-        id:"Js",
-        title:'Advice Generator',
-        img:'advice.jpeg',
-        live:'https://turqay667.github.io/advice_generator/',
-        github:'https://github.com/turqay667/accessories.az'
-    },
+    // {
+    //     id:"Js",
+    //     title:'Advice Generator',
+    //     img:'advice.jpeg',
+    //     live:'https://turqay667.github.io/advice_generator/',
+    //     github:'https://github.com/turqay667/accessories.az'
+    // },
 ]
 
 const filteringProjects = filtered==='all' ? projects : projects.filter(item=>item.id===filtered) 
@@ -59,9 +65,9 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
 <section className="portfolio" id="portfolio">
 <div className="portfolio-title text-center">
 <h2>My Portfolio</h2>
-<h4>Projects I've done</h4> 
+<h4>Projects I have worked on</h4> 
 </div>
-<div className='container' >
+<div className='container'>
 <ul className='nav nav-tabs' role='tabList'>
     <div className='d-flex '>
     <li className='nav-item' role='presentation'>
