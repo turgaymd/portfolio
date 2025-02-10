@@ -202,8 +202,8 @@ to {width: 100%;}
 }
 
 .submit-btn{
-
-  border: 2px solid rgba(77, 181, 255, 0.4);
+  box-shadow: 0 2px 4px 6px #4db5ff66;
+  border: 1px solid #4db5ff66;
   border-radius: 4px;
   color: white;
   padding:14px 38px 14px 38px;
