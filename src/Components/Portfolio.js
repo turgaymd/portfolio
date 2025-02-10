@@ -8,7 +8,8 @@ const [filtered, setFiltered]=useState('all')
 
 const projects=[
     {
-        id:"Js",
+        id:1,
+        category:"Js",
         title:'Buta Grup - Company Website',
         desc:'I co-developed this website. Some changes were made later by others.',
         img:'butagrup.jpeg',
@@ -16,7 +17,8 @@ const projects=[
         
     },
     {
-        id:"fullstack",
+        id:2,
+        category:"fullstack",
         title:'E-commerce',
         desc:'Modern E-commerce website built with MERN stack',
         img:'ecommerce.jpeg',
@@ -24,7 +26,8 @@ const projects=[
         github:'https://github.com/turqay667/accessories.az'
     },
     {
-        id:"react",
+        id:3,
+        category:"react",
         title:'Weather Forecast',
         desc:'Weather forecast developed with React, OpenWeatherMap API.',
         img:'forecast.jpeg',
@@ -32,7 +35,8 @@ const projects=[
         github:'https://github.com/turqay667/weather-app'
     },
     {
-        id:"fullstack",
+        id:4,
+        category:"fullstack",
         title:'Chat Application',
         desc:'Real-time chat application using Socket.io and MERN stack',
         img:'chat_app.jpeg',
@@ -40,7 +44,8 @@ const projects=[
         github:'https://github.com/turqay667/chat_app'
     },
     {
-        id:"react",
+        id:5,
+        category:"react",
         title:'Note Taking',
         desc:'Note-taking website built with Next.js, TypeScript, and Tailwind CSS.',
         img:'note_app.jpeg',
@@ -49,7 +54,8 @@ const projects=[
 
     },
     {
-        id:"Js",
+        id:6,
+        category:"Js",
         title:'Tic Tac Toe',
         desc:'Tic Tac Tae game developed with  Tailwind CSS,Vanilla JS',
         img:'tictac.jpeg',
@@ -65,7 +71,7 @@ const projects=[
     // },
 ]
 
-const filteringProjects = filtered==='all' ? projects : projects.filter(item=>item.id===filtered) 
+const filteringProjects = filtered==='all' ? projects : projects.filter(item=>item.category===filtered) 
 
     return(
 <section className="portfolio" id="portfolio">
@@ -95,7 +101,7 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
     {
        filteringProjects.map(item=>{
             return (
-                <div className='col-md-4' >
+                <div className='col-md-4' key={item.id}>
 <article className='portfolio-item mb-4'>
             <div className='portfolio-img'>
 <img src={item.img} alt='project'/>

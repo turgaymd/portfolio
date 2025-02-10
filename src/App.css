@@ -300,7 +300,7 @@ color: white !important;
    position: relative;
   
   }
-  /* #portfolio .nav-link:hover::after{
+  #portfolio .nav-link:hover::after{
     position: absolute;
     content: '';
     width: 10px;
@@ -310,7 +310,7 @@ color: white !important;
     margin: 0 auto;
     top: 2.5rem;
   
-  } */
+  }
 .portfolio-item{
   border-radius: 10px;
   position: relative;
