@@ -337,6 +337,7 @@ transition: 1s;
 }
 .portfolio-img{
   position: relative;
+  padding: 4px;
 }
 .portfolio-img img{
   border-radius: 20px;
@@ -344,7 +345,10 @@ transition: 1s;
 .portfolio-item a{
   font-weight: bold;
 }
-
+.portfolio-item p{
+  font-weight: 500;
+  line-height: normal;
+}
 .portfolio-links{
   display: flex;
   /* position: absolute;
