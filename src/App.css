@@ -461,6 +461,7 @@ text-decoration: none;
 .skill  img{
   width: 120px;
   height: 120px;
+  padding: 20px;
   background:beige ;
   border-radius: 10px;
 }
