@@ -27,15 +27,6 @@ const projects=[
     },
     {
         id:3,
-        category:"react",
-        title:'Weather Forecast',
-        desc:'Weather forecast developed with React, OpenWeatherMap API.',
-        img:'forecast.jpeg',
-        live:'https://lastforecast.netlify.app/',
-        github:'https://github.com/turqay667/weather-app'
-    },
-    {
-        id:4,
         category:"fullstack",
         title:'Chat Application',
         desc:'Real-time chat application using Socket.io and MERN stack',
@@ -43,6 +34,16 @@ const projects=[
         live:'https://chat-app-bxnf.vercel.app/',
         github:'https://github.com/turqay667/chat_app'
     },
+    {
+        id:4,
+        category:"react",
+        title:'Weather Forecast',
+        desc:'Weather forecast developed with React, OpenWeatherMap API.',
+        img:'forecast.jpeg',
+        live:'https://lastforecast.netlify.app/',
+        github:'https://github.com/turqay667/weather-app'
+    },
+ 
     {
         id:5,
         category:"react",
