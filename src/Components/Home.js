@@ -14,7 +14,7 @@ return (
     <div className="social pt-2">
 <a className="text-white" href="https://github.com/turqay667"><FaGithub/></a>
 <a className="text-white" href="https://www.hackerrank.com/profile/memmedovturqay81"><FaHackerrank/></a>
-<a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov-66011a1b2/"><FaLinkedinIn/></a>
+<a className="text-white" href="https://www.linkedin.com/in/turgay-mammadov/"><FaLinkedinIn/></a>
 
     </div>
         
