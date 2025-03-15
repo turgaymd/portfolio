@@ -1,6 +1,3 @@
-import {AiOutlineMobile} from "react-icons/ai";
-import {GrOptimize} from "react-icons/gr"
-import { IoMdCode } from "react-icons/io";
 const Services=()=>{
     return(
         <div>

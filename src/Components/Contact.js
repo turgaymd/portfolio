@@ -2,11 +2,9 @@
 import {MdEmail} from "react-icons/md"
 import { useRef } from "react"
 import { BsWhatsapp } from "react-icons/bs"
-import {RiMessengerLine} from "react-icons/ri";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import emailjs from '@emailjs/browser';
 import swal from "sweetalert"
-import { GrLocation } from "react-icons/gr";
 const Contact=()=>{
 
     const form=useRef()
@@ -56,7 +54,7 @@ const Contact=()=>{
 {/* <input className="form-control" name="subject" placeholder="Subject*" required/> */}
 {/* <label className=" mb-3"></label> */}
 <textarea placeholder="Your Message ..." className="form-control" rows="7"></textarea>
-<div className="text-center">
+<div className="text-center pt-3">
 <button type="submit" className="submit-btn">Submit</button>
 </div>
 

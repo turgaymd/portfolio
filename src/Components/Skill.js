@@ -4,13 +4,13 @@ const Skills=()=>{
   const techs=[
     {
       id:1,
-      title:'Vanilla JS',
-      img:'js.png'
+      title:'React',
+      img:'React.png'
     },
     {
       id:2,
-      title:'React',
-      img:'React.png'
+      title:'Next.js',
+      img:'Next.js.png'
     },
     {
       id:3,
@@ -22,25 +22,26 @@ const Skills=()=>{
       title:'MongoDB',
       img:'MongoDB.png'
     },
+
     {
       id:5,
-      title:'Next.js',
-      img:'Next.js.png'
-    },
-    {
-      id:6,
       title:'Tailwind CSS',
       img:'tailwind.png'
     },
     {
-      id:7,
+      id:6,
       title:'Git',
       img:'Git.png'
     },
     {
-      id:8,
+      id:7,
       title:'Figma',
       img:'Figma.png'
+    },
+    {
+      id:8,
+      title:'TypeScript',
+      img:'typescript.png'
     },
     ]
     return(

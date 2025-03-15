@@ -11,7 +11,7 @@ const projects=[
         id:1,
         category:"Js",
         title:'Buta Grup',
-        desc:'I co-developed this website. Some changes were made later by others.',
+        desc:'I contributed to the developement, ensuring responsiveness and usability.',
         img:'butagrup.jpeg',
         live:'https://www.butagrup.com.tr/',
         
@@ -106,12 +106,17 @@ const filteringProjects = filtered==='all' ? projects : projects.filter(item=>it
 <article className='portfolio-item mb-4'>
             <div className='portfolio-img'>
 <img src={item.img} alt='project'/>
-<h6 className='pt-3 pb-4 text-center'>{item.title} 
-{/* <p className='pt-3 desc'>{item.desc}</p>     */}
+<div className='portfolio-overlay'>
+
+<h6 className='pt-3 pb-4'>{item.title} 
+<p className='pt-3 desc'>{item.desc}</p>    
     </h6> 
-<a href={item.live} target='_blank' className='btn'><GoLink/></a>
+        
+</div>
+<a href={item.live} target='_blank' rel="noreferrer" className='btn'><GoLink/></a>
 {/* <a href={item.github}  target='_blank' className='btn'><FaGithub /></a>  */}
 </div>
+
 
 
             </article>
