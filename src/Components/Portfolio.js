@@ -11,7 +11,7 @@ const projects=[
         id:1,
         category:"Js",
         title:'Buta Grup',
-        desc:'I contributed to the developement, ensuring responsiveness and usability.',
+        desc:'I contributed to the development, ensuring responsiveness and usability.',
         img:'butagrup.jpeg',
         live:'https://www.butagrup.com.tr/',
         
