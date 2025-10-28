@@ -1,4 +1,5 @@
 
+'use client'
 import {MdEmail} from "react-icons/md"
 import { useRef } from "react"
 import { BsWhatsapp } from "react-icons/bs"
@@ -22,22 +23,20 @@ const Contact=()=>{
 <section id="contact">
 <h2>Contact Me</h2>
 <h4>Get In Touch</h4>
-
 <div className="container contact_container">
 <div className="contact_options">
 <article>
-<MdEmail  className="contact_icon"/>
+<div><MdEmail  className="contact_icon"/></div>
     <h5>Email</h5>
     <h6>memmedovturqay871@gmail.com</h6>
     </article>
-
     <article>
-<BsWhatsapp className="contact_icon" />
+    <div><BsWhatsapp className="contact_icon" /></div>
     <h5>WhatsApp</h5>
     <h6>+994705110677</h6>
     </article>
     <article>
-<HiOutlineLocationMarker className="contact_icon text-white"/>
+     <div><HiOutlineLocationMarker className="contact_icon text-white"/></div>
     <h5>Address</h5>
     <h6>Rizvan Teymurov 63, Baku</h6>
     </article>
@@ -57,7 +56,6 @@ const Contact=()=>{
 <div className="text-center pt-3">
 <button type="submit" className="submit-btn">Submit</button>
 </div>
-
 </form>
 </div>
 </div>

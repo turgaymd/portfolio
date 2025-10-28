@@ -1,3 +1,4 @@
+"use client"
 import {BsInstagram} from "react-icons/bs"
 import {ImFacebook} from "react-icons/im"
 import {FaAngleUp, FaGithub, FaInstagram, FaLinkedinIn} from "react-icons/fa"

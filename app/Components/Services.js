@@ -1,9 +1,10 @@
+"use client"
 const Services=()=>{
     return(
         <div>
             <section id="services">
 <h2>Services</h2>
-<h4 className="text-center">What I'm Doing</h4>
+<h4 className="text-center">What I am Doing</h4>
 <div className="container services_container">
  <article className="service">
  <div className="service_head"> 

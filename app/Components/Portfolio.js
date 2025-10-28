@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { GoLink } from "react-icons/go";

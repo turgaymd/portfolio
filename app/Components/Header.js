@@ -1,3 +1,5 @@
+"use client"
+import Link from "next/link";
 import Home from "./Home";
 import React, { useState } from "react";
 import {FaBars} from "react-icons/fa"
@@ -12,7 +14,7 @@ return(
 
     <nav className="navbar pb-5">
  <div className="logo">
-  <a href="/">Turgay</a>
+  <Link href="/">Turgay</Link>
  </div>
  <div className="navbar_content">
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={()=>setIsMobile(false)}>
