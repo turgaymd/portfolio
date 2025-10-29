@@ -13,7 +13,6 @@
     "emailjs": "^4.0.1",
     "netlify-cli": "^13.2.2",
     "react": "^18.2.0",
-    "react-bootstrapre": "^2.5.0",
     "react-burger-menu": "^3.0.8",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -24,14 +23,13 @@
  "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "start": "next start"
+  "start": "next start",
+  "lint":"next lint"
 }
 ,
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends":   ["next"]
+    
   },
   "browserslist": {
     "production": [
