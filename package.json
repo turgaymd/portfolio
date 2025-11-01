@@ -5,6 +5,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@emailjs/browser": "^3.7.0",
+    "@netlify/plugin-nextjs": "^5.14.4",
     "@tailwindcss/postcss": "^4.1.16",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
