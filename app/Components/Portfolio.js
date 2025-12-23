@@ -6,42 +6,43 @@ const Portfolio = () => {
   const [filtered, setFiltered] = useState("all");
 
   const projects = [
-    {
+          {
       id: 1,
+      category: "react",
+      title: "Cothink.az",
+      desc: "CoThink is a social education platform where students learn, share, and grow together.",
+      img: "cothinkaz.png",
+      live: "https://cothink.az",
+      github: "https://github.com/turgaymd/cothink",
+    },
+    {
+      id: 2,
       category: "Js",
-      title: "Buta Grup",
+      title: "butagrup.com.tr",
       desc: "I contributed to the development, ensuring responsiveness and usability.",
       img: "butagrup.jpeg",
       live: "https://www.butagrup.com.tr/",
     },
-    {
-      id: 2,
-      category: "fullstack",
-      title: "E-commerce",
-      desc: "Modern E-commerce website built with MERN stack",
-      img: "ecommerce.jpeg",
-      live: "https://accessories-az.onrender.com/",
-      github: "https://github.com/turqay667/accessories.az",
-    },
-    {
+       {
       id: 3,
       category: "fullstack",
       title: "Chat Application",
       desc: "Real-time chat application using Socket.io and MERN stack",
       img: "chat_app.jpeg",
       live: "https://chat-app-bxnf.vercel.app/",
-      github: "https://github.com/turqay667/chat_app",
+      github: "https://github.com/turgaymd/chat_app",
     },
     {
       id: 4,
-      category: "react",
-      title: "Weather Forecast",
-      desc: "Weather forecast developed with React, OpenWeatherMap API.",
-      img: "forecast.jpeg",
-      live: "https://lastforecast.netlify.app/",
-      github: "https://github.com/turqay667/weather-app",
+      category: "fullstack",
+      title: "E-commerce",
+      desc: "Modern E-commerce website built with MERN stack",
+      img: "ecommerce.jpeg",
+      live: "https://accessories-az.onrender.com/",
+      github: "https://github.com/turgaymd/accessories.az",
     },
-
+ 
+    
     {
       id: 5,
       category: "react",
@@ -49,17 +50,28 @@ const Portfolio = () => {
       desc: "Note-taking website built with Next.js, TypeScript, and Tailwind CSS.",
       img: "note_app.jpeg",
       live: "https://note-taking-livid.vercel.app/",
-      github: "https://github.com/turqay667/note-taking",
+      github: "https://github.com/turgaymd/note-taking",
     },
     {
       id: 6,
-      category: "Js",
-      title: "Tic Tac Toe",
-      desc: "Tic Tac Tae game developed with  Tailwind CSS,Vanilla JS",
-      img: "tictac.jpeg",
-      live: "https://tic-tac-toe-jm6h.onrender.com/",
-      github: "https://github.com/turqay667/tic-tac-toe",
+      category: "react",
+      title: "Weather Forecast",
+      desc: "Weather forecast developed with React, OpenWeatherMap API.",
+      img: "forecast.jpeg",
+      live: "https://lastforecast.netlify.app/",
+      github: "https://github.com/turgaymd/weather-app",
     },
+
+
+    // {
+    //   id: 6,
+    //   category: "Js",
+    //   title: "Tic Tac Toe",
+    //   desc: "Tic Tac Tae game developed with  Tailwind CSS,Vanilla JS",
+    //   img: "tictac.jpeg",
+    //   live: "https://tic-tac-toe-jm6h.onrender.com/",
+    //   github: "https://github.com/turqay667/tic-tac-toe",
+    // },
     // {
     //     id:"Js",
     //     title:'Advice Generator',
