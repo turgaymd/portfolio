@@ -53,9 +53,9 @@ const Footer = () => {
             <FaLinkedinIn />
           </a>
         </div>
-        <p className="footer_copyright mt-4">
+        <p className="footer_copyright mt-4 font-semibold">
           {" "}
-          © {currentDate} Portfolio - All Rights Reserved
+          © {currentDate} Turgay Mammadov - All Rights Reserved
         </p>
       </div>
       <div>

@@ -93,11 +93,11 @@ const Portfolio = () => {
         <h4>Projects I have worked on</h4>
       </div>
       <div className="container">
-        <ul className="nav nav-tabs" role="tabList">
+        <ul className="nav nav-tabs nav-fill justify-center" role="tabList">
           <div className="d-flex ">
             <li className="nav-item" role="presentation">
               <a
-                className="nav-link active show"
+                className={`nav-link ${filtered==="all" ? "active" :""} `}
                 id="all"
                 aria-selected="true"
                 onClick={() => setFiltered("all")}
@@ -107,7 +107,7 @@ const Portfolio = () => {
             </li>
             <li className="nav-item" role="presentation">
               <a
-                className="nav-link "
+                className={`nav-link ${filtered==="Js" ? "active" :""} `}
                 id="Js"
                 aria-selected="false"
                 onClick={() => setFiltered("Js")}
@@ -117,7 +117,7 @@ const Portfolio = () => {
             </li>
             <li className="nav-item" role="presentation">
               <a
-                className="nav-link "
+                className={`nav-link ${filtered==="react" ? "active" :""} `}
                 id="react"
                 aria-selected="false"
                 onClick={() => setFiltered("react")}
@@ -127,7 +127,7 @@ const Portfolio = () => {
             </li>
             <li className="nav-item" role="presentation">
               <a
-                className="nav-link "
+                className={`nav-link ${filtered==="fullstack" ? "active" :""} `}
                 id="fullstack"
                 aria-selected="false"
                 onClick={() => setFiltered("fullstack")}
@@ -145,9 +145,9 @@ const Portfolio = () => {
                   <div className="portfolio-img">
                     <img src={item.img} alt="project" />
                     <div className="portfolio-overlay">
-                      <h6 className="pt-3 pb-4">
+                      <h6 className="pt-3 pb-4 text-center">
                         {item.title}
-                        <p className="pt-3 desc">{item.desc}</p>
+                        {/* <p className="pt-3 desc">{item.desc}</p> */}
                       </h6>
                     </div>
                     <a

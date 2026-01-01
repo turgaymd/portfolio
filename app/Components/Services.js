@@ -28,8 +28,8 @@ const Services = () => {
               <h5>Web Scraping</h5>
             </div>
             <ul>
-              <li>Develop scripts to extract data</li>
-              <li>Implement web scraping solutions</li>
+              <li>  Develop scripts to extract data</li>
+              <li> Implement web scraping solutions</li>
             </ul>
           </article>
           <article className="service">

@@ -2,7 +2,7 @@ import { FaGithub,FaHackerrank,FaLinkedinIn,} from "react-icons/fa";
 const Home = () => {
   return (
     <div className="admin">
-      <p className="h3">Hi, I am</p>
+      <p className="greeting">Hi, I am</p>
       <div className="typewriter">
         <h2>Turgay Mammadov </h2>
       </div>

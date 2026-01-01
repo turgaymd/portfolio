@@ -2,8 +2,8 @@ const About = () => {
   return (
     <div>
       <section id="about">
-        <h2>About Me</h2>
-        <h4>Get To Know</h4>
+        {/* <h2>About Me</h2>
+        <h4>Get To Know</h4> */}
         <div className="container about_container">
           <div className="about_me row">
             <div className="about_me-img col-md-5">
@@ -24,7 +24,7 @@ const About = () => {
               </p>
               <div className="row">
                 <div className="reach-me col-md-4 col-12">
-                  <a className="submit-btn " href="CV.pdf" download>
+                  <a className="submit-btn text-nowrap" href="CV.pdf" download>
                     {" "}
                     Download CV{" "}
                   </a>

@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Next.js Portfolio Website",
+  title: "Front-end Developer | React, Next.js, Node.js",
+  description: "Front-end Developer | React, Next.js, Node.js | Building responsive, user-friendly web applications.",
 };
 
 export default function RootLayout({
@@ -30,7 +30,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       </body>
+      
     </html>
   );
 }

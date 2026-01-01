@@ -50,11 +50,13 @@ const Skills = () => {
         <div className="row pb-4 pt-4">
           {techs.map((tech) => {
             return (
-              <div className="skill col-md-3 col-6" key={tech.id}>
+              <div className="col-md-3 col-6" key={tech.id}>
+                <div className="skill">
                 <div>
                   <img src={tech.img} alt="skill" />
                 </div>
                 <h6>{tech.title}</h6>
+              </div>
               </div>
             );
           })}
