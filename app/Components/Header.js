@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       <Home />
-    </>
+    </>a
   );
 };
 export default Header;

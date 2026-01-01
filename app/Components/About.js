@@ -11,7 +11,7 @@ const About = () => {
             </div>
             {/* <div className="col-md-1"></div> */}
             <div className="about-info col-md-7">
-              <h3>Front-end developer</h3>
+              {/* <h3>Front-end developer</h3> */}
               <p className="">
                 Experienced front-end developer with a track record of
                 delivering high quality web applications. I have demonstrated

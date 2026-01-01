@@ -15,32 +15,34 @@ const Skills = () => {
       title: "Node.js",
       img: "Node.js.png",
     },
-    {
-      id: 4,
-      title: "MongoDB",
-      img: "MongoDB.png",
-    },
+   
 
     {
-      id: 5,
+      id: 4,
       title: "Tailwind CSS",
       img: "tailwind.png",
     },
-    {
+     {
+      id: 5,
+      title: "MongoDB",
+      img: "MongoDB.png",
+    },
+     {
       id: 6,
+      title: "TypeScript",
+      img: "typescript.png",
+    },
+    {
+      id: 7,
       title: "Git",
       img: "Git.png",
     },
     {
-      id: 7,
+      id: 8,
       title: "Figma",
       img: "Figma.png",
     },
-    {
-      id: 8,
-      title: "TypeScript",
-      img: "typescript.png",
-    },
+   
   ];
   return (
     <div className="container">

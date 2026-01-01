@@ -4,9 +4,9 @@ const Home = () => {
     <div className="admin">
       <p className="greeting">Hi, I am</p>
       <div className="typewriter">
-        <h2>Turgay Mammadov </h2>
+        <h1>Turgay Mammadov  </h1>
+        <h2>Front-end developer </h2>
       </div>
-      {/* <h4>front-end developer</h4> */}
       <div className="social pt-2">
         <a className="text-white" href="https://github.com/turqay667">
           <FaGithub />
