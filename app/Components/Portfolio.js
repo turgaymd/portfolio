@@ -28,7 +28,7 @@ const Portfolio = () => {
       category: "fullstack",
       title: "Chat Application",
       desc: "Real-time chat application using Socket.io and MERN stack",
-      img: "chat_app.jpeg",
+      img: "chats.png",
       live: "https://chat-app-bxnf.vercel.app/",
       github: "https://github.com/turgaymd/chat_app",
     },
@@ -93,7 +93,7 @@ const Portfolio = () => {
         <h4>Projects I have worked on</h4>
       </div>
       <div className="container">
-        <ul className="nav nav-tabs nav-fill justify-center" role="tabList">
+        {/* <ul className="nav nav-tabs nav-fill justify-center" role="tabList">
           <div className="d-flex ">
             <li className="nav-item" role="presentation">
               <a
@@ -136,7 +136,7 @@ const Portfolio = () => {
               </a>
             </li>
           </div>
-        </ul>
+        </ul> */}
         <div className="row pt-3" id="projects">
           {filteringProjects.map((item) => {
             return (
