@@ -1,10 +1,9 @@
 # Portfolio
-
+This is a personal portfolio website built with Next.js and Bootstrap.
 ## Features
 - Clean and responsive UI design
 - Project showcase with live demo links
 - Contact form for easy communication
-This is a personal portfolio website built with Next.js and Bootstrap.
 
 ## Getting Started
 
