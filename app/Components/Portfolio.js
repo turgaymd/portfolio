@@ -145,9 +145,9 @@ const Portfolio = () => {
                   <div className="portfolio-img">
                     <img src={item.img} alt="project" />
                     <div className="portfolio-overlay">
-                      <h6 className="pt-3 pb-4 text-center">
+                      <h6 className="pt-3 pb-4r">
                         {item.title}
-                        {/* <p className="pt-3 desc">{item.desc}</p> */}
+                         <p className="pt-3 desc">{item.desc}</p> 
                       </h6>
                     </div>
                     <a
