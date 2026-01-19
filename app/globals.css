@@ -262,16 +262,11 @@ to {width: 100%;}
   cursor: pointer;
 }
 .about_me{
-
-  display: flex;
-  justify-self: center;
-  align-items: center;
   border-radius: 50%;
 }
 
 
 .about_me-img img{
-width: 300px;
 height: 100%;
 border-radius: 20px;
 z-index: 1;
